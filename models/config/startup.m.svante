@@ -1,0 +1,14 @@
+% Place me at ~/Documents/MATLAB/startup.m on Svante
+
+% Add my toolboxes
+addpath('~/projects/adp')
+addpath('~/projects/adp/kdtree1.2')
+
+% Add Sandia's tensor toolbox for multi-D sparse support
+% addpath('~/lib/tensor_toolbox_2.4')
+% addpath('~/lib/tensor_toolbox_2.4/algorithms')
+% addpath('~/lib/tensor_toolbox_2.4/met')
+
+% Install MySQL connector. WARNING: MATLAB does handle properly in its parallel environment,
+% However, multiple MATLAB sessions on the same machine/file system can use concurrently
+javaaddpath('/home/b_p/lib/mysql-connector-java-5.1.17-bin.jar')

@@ -1,0 +1,20 @@
+Advanced Power GAMS models todo:
+
+Fix:
+ 
+Minor:
+-- Add forced_out to gparams & gen data.
+-- Use forced_out for default avail
+
+Shared data related:
+-- Rework avail for wind so matches by type not name
+X Switch unit_min to p.u. (Might be bad assumption for large clusters) SOLUTION: only use for gparams
+X Rename plant_size to unit_size (opted to use gen_size for either UC=unit or CapPlan=plant)
+X Separate out gen parameters from capacities
+-?- Assign integer zero values to techs fixed at zero
+
+Soon:
+-- Retirement via command line option
+
+Later:
+-- Add support for contingent decisions (pre-built flexibility)

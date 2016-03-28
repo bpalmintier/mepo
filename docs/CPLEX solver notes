@@ -1,0 +1,10 @@
+CPLEX solver test runs
+
+Command-line
+gams StaticCapPlan -errmsg=1 --out_dir=${OUT_DIR} -o=${OUT_DIR}/StaticCapPlan.lst --sys=ercot2009_sys.inc --update=../data/ieee2011_update.inc --summary_only=1 --par_threads=0 --startup=1 --ramp=1 --flex_rsrv=1 --max_start=1
+
+Initial relaxation:
+Dual Simplex (automatic) = 
+Barrier = 5766.76 sec
+Barrier with dual for crossover (barcrossalg 2) = 5089.90 sec
+*** Barrier with NO crossover (barcrossalg -1) = 249.15 sec.

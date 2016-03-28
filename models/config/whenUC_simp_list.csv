@@ -1,0 +1,113 @@
+whenUC_simp_r0_derate,  --co2cost=0 --rps=0 --derate_to_maint=1 --derate=1 --plan_margin=on 
+whenUC_simp_r20_derate,  --co2cost=0 --rps=0.2 --derate_to_maint=1 --derate=1 --plan_margin=on 
+whenUC_simp_r40_derate,  --co2cost=0 --rps=0.4 --derate_to_maint=1 --derate=1 --plan_margin=on 
+whenUC_simp_r60_derate,  --co2cost=0 --rps=0.6 --derate_to_maint=1 --derate=1 --plan_margin=on 
+whenUC_simp_r80_derate,  --co2cost=0 --rps=0.8 --derate_to_maint=1 --derate=1 --plan_margin=on 
+whenUC_simp_cmx141_r0_derate,  --co2cap=141 --rps=0 --derate_to_maint=1 --derate=1 --plan_margin=on 
+whenUC_simp_cmx141_r20_derate,  --co2cap=141 --rps=0.2 --derate_to_maint=1 --derate=1 --plan_margin=on 
+whenUC_simp_cmx141_r40_derate,  --co2cap=141 --rps=0.4 --derate_to_maint=1 --derate=1 --plan_margin=on 
+whenUC_simp_cmx141_r60_derate,  --co2cap=141 --rps=0.6 --derate_to_maint=1 --derate=1 --plan_margin=on 
+whenUC_simp_cmx141_r80_derate,  --co2cap=141 --rps=0.8 --derate_to_maint=1 --derate=1 --plan_margin=on 
+whenUC_simp_cmx94_r0_derate,  --co2cap=94 --rps=0 --derate_to_maint=1 --derate=1 --plan_margin=on 
+whenUC_simp_cmx94_r20_derate,  --co2cap=94 --rps=0.2 --derate_to_maint=1 --derate=1 --plan_margin=on 
+whenUC_simp_cmx94_r40_derate,  --co2cap=94 --rps=0.4 --derate_to_maint=1 --derate=1 --plan_margin=on 
+whenUC_simp_cmx94_r60_derate,  --co2cap=94 --rps=0.6 --derate_to_maint=1 --derate=1 --plan_margin=on 
+whenUC_simp_cmx94_r80_derate,  --co2cap=94 --rps=0.8 --derate_to_maint=1 --derate=1 --plan_margin=on 
+whenUC_simp_cmx47_r0_derate,  --co2cap=47 --rps=0 --derate_to_maint=1 --derate=1 --plan_margin=on 
+whenUC_simp_cmx47_r20_derate,  --co2cap=47 --rps=0.2 --derate_to_maint=1 --derate=1 --plan_margin=on 
+whenUC_simp_cmx47_r40_derate,  --co2cap=47 --rps=0.4 --derate_to_maint=1 --derate=1 --plan_margin=on 
+whenUC_simp_cmx47_r60_derate,  --co2cap=47 --rps=0.6 --derate_to_maint=1 --derate=1 --plan_margin=on 
+whenUC_simp_cmx47_r80_derate,  --co2cap=47 --rps=0.8 --derate_to_maint=1 --derate=1 --plan_margin=on 
+whenUC_simp_r0,  --co2cost=0 --rps=0 --maint=1 --plan_margin=on 
+whenUC_simp_r20,  --co2cost=0 --rps=0.2 --maint=1 --plan_margin=on 
+whenUC_simp_r40,  --co2cost=0 --rps=0.4 --maint=1 --plan_margin=on 
+whenUC_simp_r60,  --co2cost=0 --rps=0.6 --maint=1 --plan_margin=on 
+whenUC_simp_r80,  --co2cost=0 --rps=0.8 --maint=1 --plan_margin=on 
+whenUC_simp_cmx141_r0,  --co2cap=141 --rps=0 --maint=1 --plan_margin=on 
+whenUC_simp_cmx141_r20,  --co2cap=141 --rps=0.2 --maint=1 --plan_margin=on 
+whenUC_simp_cmx141_r40,  --co2cap=141 --rps=0.4 --maint=1 --plan_margin=on 
+whenUC_simp_cmx141_r60,  --co2cap=141 --rps=0.6 --maint=1 --plan_margin=on 
+whenUC_simp_cmx141_r80,  --co2cap=141 --rps=0.8 --maint=1 --plan_margin=on 
+whenUC_simp_cmx94_r0,  --co2cap=94 --rps=0 --maint=1 --plan_margin=on 
+whenUC_simp_cmx94_r20,  --co2cap=94 --rps=0.2 --maint=1 --plan_margin=on 
+whenUC_simp_cmx94_r40,  --co2cap=94 --rps=0.4 --maint=1 --plan_margin=on 
+whenUC_simp_cmx94_r60,  --co2cap=94 --rps=0.6 --maint=1 --plan_margin=on 
+whenUC_simp_cmx94_r80,  --co2cap=94 --rps=0.8 --maint=1 --plan_margin=on 
+whenUC_simp_cmx47_r0,  --co2cap=47 --rps=0 --maint=1 --plan_margin=on 
+whenUC_simp_cmx47_r20,  --co2cap=47 --rps=0.2 --maint=1 --plan_margin=on 
+whenUC_simp_cmx47_r40,  --co2cap=47 --rps=0.4 --maint=1 --plan_margin=on 
+whenUC_simp_cmx47_r60,  --co2cap=47 --rps=0.6 --maint=1 --plan_margin=on 
+whenUC_simp_cmx47_r80,  --co2cap=47 --rps=0.8 --maint=1 --plan_margin=on 
+whenUC_simp_r0_derate_pm0765	  --co2cost=0 --rps=0 --derate_to_maint=1 --derate=1 --plan_margin=0.0765 
+whenUC_simp_r20_derate_pm1388	  --co2cost=0 --rps=0.2 --derate_to_maint=1 --derate=1 --plan_margin=0.1388 
+whenUC_simp_r40_derate_pm2209	  --co2cost=0 --rps=0.4 --derate_to_maint=1 --derate=1 --plan_margin=0.2209 
+whenUC_simp_r60_derate_pm5639	  --co2cost=0 --rps=0.6 --derate_to_maint=1 --derate=1 --plan_margin=0.5639 
+whenUC_simp_r80_derate_pm5990	  --co2cost=0 --rps=0.8 --derate_to_maint=1 --derate=1 --plan_margin=0.599 
+whenUC_simp_cmx141_r0_derate_pm0852	  --co2cap=141 --rps=0 --derate_to_maint=1 --derate=1 --plan_margin=0.0852 
+whenUC_simp_cmx141_r20_derate_pm1420	  --co2cap=141 --rps=0.2 --derate_to_maint=1 --derate=1 --plan_margin=0.142 
+whenUC_simp_cmx141_r40_derate_pm2145	  --co2cap=141 --rps=0.4 --derate_to_maint=1 --derate=1 --plan_margin=0.2145 
+whenUC_simp_cmx141_r60_derate_pm5607	  --co2cap=141 --rps=0.6 --derate_to_maint=1 --derate=1 --plan_margin=0.5607 
+whenUC_simp_cmx141_r80_derate_pm6183	  --co2cap=141 --rps=0.8 --derate_to_maint=1 --derate=1 --plan_margin=0.6183 
+whenUC_simp_cmx94_r0_derate_pm1082	  --co2cap=94 --rps=0 --derate_to_maint=1 --derate=1 --plan_margin=0.1082 
+whenUC_simp_cmx94_r20_derate_pm1519	  --co2cap=94 --rps=0.2 --derate_to_maint=1 --derate=1 --plan_margin=0.1519 
+whenUC_simp_cmx94_r40_derate_pm2178	  --co2cap=94 --rps=0.4 --derate_to_maint=1 --derate=1 --plan_margin=0.2178 
+whenUC_simp_cmx94_r60_derate_pm6025	  --co2cap=94 --rps=0.6 --derate_to_maint=1 --derate=1 --plan_margin=0.6025 
+whenUC_simp_cmx94_r80_derate_pm5765	  --co2cap=94 --rps=0.8 --derate_to_maint=1 --derate=1 --plan_margin=0.5765 
+whenUC_simp_cmx47_r0_derate_pm1279	  --co2cap=47 --rps=0 --derate_to_maint=1 --derate=1 --plan_margin=0.1279 
+whenUC_simp_cmx47_r20_derate_pm2099	  --co2cap=47 --rps=0.2 --derate_to_maint=1 --derate=1 --plan_margin=0.2099 
+whenUC_simp_cmx47_r40_derate_pm2386	  --co2cap=47 --rps=0.4 --derate_to_maint=1 --derate=1 --plan_margin=0.2386 
+whenUC_simp_cmx47_r60_derate_pm7021	  --co2cap=47 --rps=0.6 --derate_to_maint=1 --derate=1 --plan_margin=0.7021 
+whenUC_simp_cmx47_r80_derate_pm5765	  --co2cap=47 --rps=0.8 --derate_to_maint=1 --derate=1 --plan_margin=0.5765 
+whenUC_simp_r0_derate_noWind	  --co2cost=0 --rps=0 --derate_to_maint=1 --derate=1 --plan_margin=on --update=../data/no_wind_update.inc 
+whenUC_simp_cmx141_r0_derate_noWind	  --co2cap=141 --rps=0 --derate_to_maint=1 --derate=1 --plan_margin=on --update=../data/no_wind_update.inc 
+whenUC_simp_cmx94_r0_derate_noWind	  --co2cap=94 --rps=0 --derate_to_maint=1 --derate=1 --plan_margin=on --update=../data/no_wind_update.inc 
+whenUC_simp_cmx47_r0_derate_noWind	  --co2cap=47 --rps=0 --derate_to_maint=1 --derate=1 --plan_margin=on --update=../data/no_wind_update.inc 
+whenUC_simp_r0_derate_pm0656_noWind	  --co2cost=0 --rps=0 --derate_to_maint=1 --derate=1 --plan_margin=0.0656 --update=../data/no_wind_update.inc 
+whenUC_simp_cmx141_r0_derate_pm0773_noWind	  --co2cap=141 --rps=0 --derate_to_maint=1 --derate=1 --plan_margin=0.0773 --update=../data/no_wind_update.inc 
+whenUC_simp_cmx94_r0_derate_pm1240_noWind	  --co2cap=94 --rps=0 --derate_to_maint=1 --derate=1 --plan_margin=0.124 --update=../data/no_wind_update.inc 
+whenUC_simp_cmx47_r0_derate_pm1363_noWind	  --co2cap=47 --rps=0 --derate_to_maint=1 --derate=1 --plan_margin=0.1363 --update=../data/no_wind_update.inc 
+whenUC_simp_r0_derate_f2020	  --co2cost=0 --rps=0 --derate_to_maint=1 --derate=1 --plan_margin=on --fuel=thesis_fuel2020.inc 
+whenUC_simp_cmx94_r20_derate_f2020	  --co2cap=94 --rps=0.2 --derate_to_maint=1 --derate=1 --plan_margin=on --fuel=thesis_fuel2020.inc 
+whenUC_simp_cmx47_r20_derate_f2020	  --co2cap=47 --rps=0.2 --derate_to_maint=1 --derate=1 --plan_margin=on --fuel=thesis_fuel2020.inc 
+whenUC_simp_cmx141_r40_derate_f2020	  --co2cap=141 --rps=0.4 --derate_to_maint=1 --derate=1 --plan_margin=on --fuel=thesis_fuel2020.inc 
+whenUC_simp_r0_derate_pm0773_f35ref_noW	  --co2cost=0 --rps=0 --derate_to_maint=1 --derate=1 --plan_margin=0.0773 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+whenUC_simp_r20_derate_pm1421_f35ref	  --co2cost=0 --rps=0.2 --derate_to_maint=1 --derate=1 --plan_margin=0.1421 --fuel=fuel2035_aeo12_ref_usa.inc 
+whenUC_simp_r40_derate_pm2242_f35ref	  --co2cost=0 --rps=0.4 --derate_to_maint=1 --derate=1 --plan_margin=0.2242 --fuel=fuel2035_aeo12_ref_usa.inc 
+whenUC_simp_r60_derate_pm5930_f35ref	  --co2cost=0 --rps=0.6 --derate_to_maint=1 --derate=1 --plan_margin=0.593 --fuel=fuel2035_aeo12_ref_usa.inc 
+whenUC_simp_r80_derate_pm5765_f35ref	  --co2cost=0 --rps=0.8 --derate_to_maint=1 --derate=1 --plan_margin=0.5765 --fuel=fuel2035_aeo12_ref_usa.inc 
+whenUC_simp_cmx141_r0_derate_pm0773_f35ref_noW	  --co2cap=141 --rps=0 --derate_to_maint=1 --derate=1 --plan_margin=0.0773 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+whenUC_simp_cmx141_r20_derate_pm1421_f35ref	  --co2cap=141 --rps=0.2 --derate_to_maint=1 --derate=1 --plan_margin=0.1421 --fuel=fuel2035_aeo12_ref_usa.inc 
+whenUC_simp_cmx141_r40_derate_pm2178_f35ref	  --co2cap=141 --rps=0.4 --derate_to_maint=1 --derate=1 --plan_margin=0.2178 --fuel=fuel2035_aeo12_ref_usa.inc 
+whenUC_simp_cmx141_r60_derate_pm5542_f35ref	  --co2cap=141 --rps=0.6 --derate_to_maint=1 --derate=1 --plan_margin=0.5542 --fuel=fuel2035_aeo12_ref_usa.inc 
+whenUC_simp_cmx141_r80_derate_pm5701_f35ref	  --co2cap=141 --rps=0.8 --derate_to_maint=1 --derate=1 --plan_margin=0.5701 --fuel=fuel2035_aeo12_ref_usa.inc 
+whenUC_simp_cmx94_r0_derate_pm1240_f35ref_noW	  --co2cap=94 --rps=0 --derate_to_maint=1 --derate=1 --plan_margin=0.124 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+whenUC_simp_cmx94_r20_derate_pm1487_f35ref	  --co2cap=94 --rps=0.2 --derate_to_maint=1 --derate=1 --plan_margin=0.1487 --fuel=fuel2035_aeo12_ref_usa.inc 
+whenUC_simp_cmx94_r40_derate_pm2242_f35ref	  --co2cap=94 --rps=0.4 --derate_to_maint=1 --derate=1 --plan_margin=0.2242 --fuel=fuel2035_aeo12_ref_usa.inc 
+whenUC_simp_cmx94_r60_derate_pm5671_f35ref	  --co2cap=94 --rps=0.6 --derate_to_maint=1 --derate=1 --plan_margin=0.5671 --fuel=fuel2035_aeo12_ref_usa.inc 
+whenUC_simp_cmx94_r80_derate_pm5829_f35ref	  --co2cap=94 --rps=0.8 --derate_to_maint=1 --derate=1 --plan_margin=0.5829 --fuel=fuel2035_aeo12_ref_usa.inc 
+whenUC_simp_cmx47_r0_derate_pm1481_f35ref_noW	  --co2cap=47 --rps=0 --derate_to_maint=1 --derate=1 --plan_margin=0.1481 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+whenUC_simp_cmx47_r20_derate_pm1739_f35ref	  --co2cap=47 --rps=0.2 --derate_to_maint=1 --derate=1 --plan_margin=0.1739 --fuel=fuel2035_aeo12_ref_usa.inc 
+whenUC_simp_cmx47_r40_derate_pm3088_f35ref	  --co2cap=47 --rps=0.4 --derate_to_maint=1 --derate=1 --plan_margin=0.3088 --fuel=fuel2035_aeo12_ref_usa.inc 
+whenUC_simp_cmx47_r60_derate_pm6562_f35ref	  --co2cap=47 --rps=0.6 --derate_to_maint=1 --derate=1 --plan_margin=0.6562 --fuel=fuel2035_aeo12_ref_usa.inc 
+whenUC_simp_cmx47_r80_derate_pm5797_f35ref	  --co2cap=47 --rps=0.8 --derate_to_maint=1 --derate=1 --plan_margin=0.5797 --fuel=fuel2035_aeo12_ref_usa.inc 
+whenUC_simp_r0_derate_pm0595_f35loC_noW	  --co2cost=0 --rps=0 --derate_to_maint=1 --derate=1 --plan_margin=0.0595 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+whenUC_simp_r20_derate_pm1420_f35loC	  --co2cost=0 --rps=0.2 --derate_to_maint=1 --derate=1 --plan_margin=0.142 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+whenUC_simp_r40_derate_pm2500_f35loC	  --co2cost=0 --rps=0.4 --derate_to_maint=1 --derate=1 --plan_margin=0.25 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+whenUC_simp_r60_derate_pm5639_f35loC	  --co2cost=0 --rps=0.6 --derate_to_maint=1 --derate=1 --plan_margin=0.5639 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+whenUC_simp_r80_derate_pm5765_f35loC	  --co2cost=0 --rps=0.8 --derate_to_maint=1 --derate=1 --plan_margin=0.5765 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+whenUC_simp_cmx141_r0_derate_pm0817_f35loC_noW	  --co2cap=141 --rps=0 --derate_to_maint=1 --derate=1 --plan_margin=0.0817 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+whenUC_simp_cmx141_r20_derate_pm1389_f35loC	  --co2cap=141 --rps=0.2 --derate_to_maint=1 --derate=1 --plan_margin=0.1389 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+whenUC_simp_cmx141_r40_derate_pm2145_f35loC	  --co2cap=141 --rps=0.4 --derate_to_maint=1 --derate=1 --plan_margin=0.2145 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+whenUC_simp_cmx141_r60_derate_pm5639_f35loC	  --co2cap=141 --rps=0.6 --derate_to_maint=1 --derate=1 --plan_margin=0.5639 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+whenUC_simp_cmx141_r80_derate_pm5797_f35loC	  --co2cap=141 --rps=0.8 --derate_to_maint=1 --derate=1 --plan_margin=0.5797 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+whenUC_simp_cmx94_r0_derate_pm0929_f35loC_noW	  --co2cap=94 --rps=0 --derate_to_maint=1 --derate=1 --plan_margin=0.0929 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+whenUC_simp_cmx94_r20_derate_pm1519_f35loC	  --co2cap=94 --rps=0.2 --derate_to_maint=1 --derate=1 --plan_margin=0.1519 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+whenUC_simp_cmx94_r40_derate_pm2242_f35loC	  --co2cap=94 --rps=0.4 --derate_to_maint=1 --derate=1 --plan_margin=0.2242 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+whenUC_simp_cmx94_r60_derate_pm5671_f35loC	  --co2cap=94 --rps=0.6 --derate_to_maint=1 --derate=1 --plan_margin=0.5671 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+whenUC_simp_cmx94_r80_derate_pm5797_f35loC	  --co2cap=94 --rps=0.8 --derate_to_maint=1 --derate=1 --plan_margin=0.5797 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+whenUC_simp_cmx47_r0_derate_pm1363_f35loC_noW	  --co2cap=47 --rps=0 --derate_to_maint=1 --derate=1 --plan_margin=0.1363 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+whenUC_simp_cmx47_r20_derate_pm1740_f35loC	  --co2cap=47 --rps=0.2 --derate_to_maint=1 --derate=1 --plan_margin=0.174 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+whenUC_simp_cmx47_r40_derate_pm2823_f35loC	  --co2cap=47 --rps=0.4 --derate_to_maint=1 --derate=1 --plan_margin=0.2823 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+whenUC_simp_cmx47_r60_derate_pm6398_f35loC	  --co2cap=47 --rps=0.6 --derate_to_maint=1 --derate=1 --plan_margin=0.6398 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+whenUC_simp_cmx47_r80_derate_pm5829_f35loC	  --co2cap=47 --rps=0.8 --derate_to_maint=1 --derate=1 --plan_margin=0.5829 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+

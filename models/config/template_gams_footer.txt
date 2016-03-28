@@ -1,0 +1,24 @@
+#=== Footer Template ====
+#  No printf parameters
+
+#  Version History
+# Ver   Date       Time  Who            What
+# ---  ----------  ----- -------------- ---------------------------------
+#   1  2011-10-08  04:20  bpalmintier   Adapted from pbs_time1.sh v4
+#   2  2011-10-08  21:00  bpalmintier   Implemented use of scratch space
+
+#Wait until all background jobs are complete
+wait
+
+#See how much disk space we used
+df -h
+
+#Clean-up scratch space
+echo "Cleaning up our Scratch Space"
+cd
+rm -r /scratch/b_p/*
+
+df -h
+
+echo "Script Complete ${PBS_JOBID}"
+

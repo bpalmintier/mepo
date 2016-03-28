@@ -1,0 +1,6 @@
+CpUc_co2_policy/	co2_pol_simp_ccst60_r20_derate_rerun	  --co2cost=60 --rps=0.2 --derate_to_maint=1 --derate=1 --update=co2_pol_simp_ccst90_r20_derate_pm1726_update.inc 
+whenUC_grid/	whenUC_edFlex_cmx47_r20_derate_flex_olRv_rerun	  --uc_ignore_unit_min=Inf --co2cap=47 --rps=0.2 --rsrv=flex --derate_to_maint=1 --derate=1 --no_quick_st=1 --non_uc_rsrv_up_offline=0.6 --non_uc_rsrv_down_offline=0.6 
+whenUC_grid/	whenUC_edFlex_cmx47_r40_derate_flex_olRv_rerun	  --uc_ignore_unit_min=Inf --co2cap=47 --rps=0.4 --rsrv=flex --derate_to_maint=1 --derate=1 --no_quick_st=1 --non_uc_rsrv_up_offline=0.6 --non_uc_rsrv_down_offline=0.6 
+whenUC_grid/	whenUC_uclp_cmx47_r20_sep_rerun	  --uc_int_unit_min=Inf --co2cap=47 --rps=0.2 --rsrv=separate 
+whenUC_grid/	whenUC_simp_r40_derate_rerun	  --co2cost=0 --rps=0.4 --derate_to_maint=1 --derate=1 
+whenUC_grid/	whenUC_simp_cmx47_r0_derate_rerun	  --co2cap=47 --rps=0 --derate_to_maint=1 --derate=1 

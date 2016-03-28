@@ -1,0 +1,446 @@
+GAMS 24.2.1  r43572 Released Dec  9, 2013 WEX-WEI x86_64/MS Windows                                                                                                                                                                    03/05/14 10:51:03 Page 1
+Demo Static Capacity Planning model
+C o m p i l a t i o n
+
+
+   2   
+      ----------------------------------------------------
+        A very basic deterministic static electricity generation capacity planning model with continuous build decisions.
+       
+        Supports:
+          - arbitrary number of generation technologies/units with
+              + maximum installed capacity by unit
+          - arbitrary number of demand blocks of varying duration
+       
+        Originally Coded in GAMS by:
+         Bryan Palmintier, MIT
+         March 2010
+       
+      Ver   Date      Time  Who            What
+      ---  ---------- ----- -------------- ---------------------------------
+        1  2010-03-25 22:00  bpalmintier    Original Version with 4 blocks & no Hydro
+        2  2010-03-30 21:25  bpalmintier     - Moved data to include files
+                                             - Expanded comments & renamed variables
+        3  2010-03-30 22:30  bpalmintier    Corrected error in ePwrMin
+        4  2010-04-09 14:00  bpalmintier    Merged into single file for Demo
+        5  2010-04-09 16:15  bpalmintier    Removed min & CF
+      -----------------------------------------------------
+  26   
+  27  * ----- GAMS Options
+  28  * Allow declaration of empty sets & variables
+  30  * Allow additions to set elements with multiple set definitions
+  32   
+  33   
+  34  * ----- Declare all sets so can use in equations
+  35  sets
+  36  * Sets for table parameters
+  37           DEM_PARAMS  demand block parameters from load duration curve
+  38                 /dur, power/
+  39           GEN_PARAMS  generation parameters
+  40                 /c_var, c_fix, max_cap/
+  41   
+  42  * Sets for data, actual definitions can be found in include files
+  43           D           demand levels
+  44           G           generation
+  45   
+  46  * ----- Declare the data parameters. Actual data defined below
+  47  parameters
+  48           pDemandData(D, DEM_PARAMS) table of demand data
+  49           pGenData   (G, GEN_PARAMS) table of generator data
+  50   
+  51  * ----- Declare Variables
+  52  variables
+  53     vTotalCost                total system cost in target year   [M$]
+  54     vAnnualizedFixedCost      annualized fixed [cap + fixed O&M] [M$]
+  55     vVariableOpCost           variable O&M [fuel etc]            [M$]
+  56   
+  57  positive variables
+  58     vPwrOut   (D, G)   production of the unit                [GW]
+GAMS 24.2.1  r43572 Released Dec  9, 2013 WEX-WEI x86_64/MS Windows                                                                                                                                                                    03/05/14 10:51:03 Page 2
+Demo Static Capacity Planning model
+C o m p i l a t i o n
+
+
+  59     vCapacity (   G)   total installed capacity that is used [GW]
+  60     ;
+  61   
+  62  * ----- Declare Equations
+  63  equations
+  64     eTotalCost       total system cost                  [M$]
+  65   
+  66     eFixedCost       system fixed costs [annualized]    [M$]
+  67     eVarCost         system variable costs for one year [M$]
+  68   
+  69     eInstCap  (   G)  installed capacity                    [GW]
+  70     ePwrMax   (D, G)  output lower than installed max       [GW]
+  71     eDemand   (D)     output must equal demand              [GW]
+  72     ;
+  73   
+  74  * ----- The actual Model
+  75  eTotalCost    .. vTotalCost =e=  vAnnualizedFixedCost + vVariableOpCost;
+  76  eFixedCost    .. vAnnualizedFixedCost =e= sum[(G  ), pGenData(G,'c_fix')*vCapacity(G)];
+  77  eVarCost      .. vVariableOpCost*1e3 =e= sum[(G,D),
+  78                      pGenData(G,'c_var')*vPwrOut(D,G)*pDemandData(D, 'dur')];
+  79   
+  80  eInstCap(G)    .. vCapacity(G) =l= pGenData(G,'max_cap');
+  81  ePwrMax (D, G) .. vPwrOut(D, G) =l= vCapacity(G);
+  82  eDemand (D)    .. sum[(G), vPwrOut(D, G)] =e= pDemandData(D,'power');
+  83   
+  84  * ----- Define Data
+  85  * -- Generator data
+  86  *
+  87  *  Sample generation data, loosely based on:
+  88  *
+  89  *  Royal Academy of Engineering. (2004). The cost of generating electricity.
+  90  *  London: Royal Academy of Engineering.
+  91  *
+  92  *  with some adjustments based on:
+  93  *    DoE Annual Energy Outlook, 2010
+  94  * --
+  95   
+  96  * Define the list of generators
+  97  set
+  98           G           generation
+  99                 /Nuke, CCGT, CT/
+ 100   
+ 101  * And the parameters for these generators
+ 102  table    pGenData(G, GEN_PARAMS)   Generation Data Table
+ 103                 c_var      c_fix    max_cap
+ 104  *            [$/MWh]   [M$/GW-yr]     [GW]
+ 105  Nuke              17       92         Inf
+ 106  CCGT              33       36         Inf
+ 107  CT                48       32.5       Inf
+ 108  ;
+ 109   
+ 110  * -- Demand data
+ 111  *
+GAMS 24.2.1  r43572 Released Dec  9, 2013 WEX-WEI x86_64/MS Windows                                                                                                                                                                    03/05/14 10:51:03 Page 3
+Demo Static Capacity Planning model
+C o m p i l a t i o n
+
+
+ 112  *  Sample 3 level demand data based on ERCOT 2009 loads
+ 113  * --
+ 114   
+ 115  * Declare the actual set members (blocks, hours, etc)
+ 116  set
+ 117    D   demand blocks
+ 118                 /peak, shoulder, low/
+ 119   
+ 120  * The actual demand data table:
+ 121  * Note durations for non-peak shifted by 1 hour to ensure
+ 122  * intermediate generation actually gets built
+ 123  table    pDemandData(D, DEM_PARAMS)   Demand data
+ 124                  dur     power
+ 125  *              [hr]      [GW]
+ 126  peak            233     63.491
+ 127  shoulder       3266     54.135
+ 128  low            5261     36.028
+ 129  ;
+ 130   
+ 131   
+ 132  * ----- Run the model
+ 133  model DemoCapPlan  /all/
+ 134  solve DemoCapPlan using LP minimizing vTotalCost;
+ 135   
+ 136  * ----- Display the results
+ 137  * display command writes to the end of the *.lst file
+ 138  display vPwrOut.l
+ 139  display vCapacity.l
+
+
+COMPILATION TIME     =        0.000 SECONDS      3 MB  24.2.1 r43572 WEX-WEI
+GAMS 24.2.1  r43572 Released Dec  9, 2013 WEX-WEI x86_64/MS Windows                                                                                                                                                                    03/05/14 10:51:03 Page 4
+Demo Static Capacity Planning model
+Equation Listing    SOLVE DemoCapPlan Using LP From line 134
+
+
+---- eTotalCost  =E=  total system cost                  [M$]
+
+eTotalCost..  vTotalCost - vAnnualizedFixedCost - vVariableOpCost =E= 0 ; (LHS = 0)
+     
+
+---- eFixedCost  =E=  system fixed costs [annualized]    [M$]
+
+eFixedCost..  vAnnualizedFixedCost - 92*vCapacity(Nuke) - 36*vCapacity(CCGT) - 32.5*vCapacity(CT) =E= 0 ; (LHS = 0)
+     
+
+---- eVarCost  =E=  system variable costs for one year [M$]
+
+eVarCost..  1000*vVariableOpCost - 3961*vPwrOut(peak,Nuke) - 7689*vPwrOut(peak,CCGT) - 11184*vPwrOut(peak,CT) - 55522*vPwrOut(shoulder,Nuke) - 107778*vPwrOut(shoulder,CCGT) - 156768*vPwrOut(shoulder,CT) - 89437*vPwrOut(low,Nuke) - 173613*vPwrOut(low,CCGT)
+     
+      - 252528*vPwrOut(low,CT) =E= 0 ; (LHS = 0)
+     
+
+---- eInstCap  =L=  installed capacity                    [GW]
+
+eInstCap(Nuke)..  vCapacity(Nuke) =L= +INF ; (LHS = 0)
+     
+eInstCap(CCGT)..  vCapacity(CCGT) =L= +INF ; (LHS = 0)
+     
+eInstCap(CT)..  vCapacity(CT) =L= +INF ; (LHS = 0)
+     
+
+---- ePwrMax  =L=  output lower than installed max       [GW]
+
+ePwrMax(peak,Nuke)..  vPwrOut(peak,Nuke) - vCapacity(Nuke) =L= 0 ; (LHS = 0)
+     
+ePwrMax(peak,CCGT)..  vPwrOut(peak,CCGT) - vCapacity(CCGT) =L= 0 ; (LHS = 0)
+     
+ePwrMax(peak,CT)..  vPwrOut(peak,CT) - vCapacity(CT) =L= 0 ; (LHS = 0)
+     
+REMAINING 6 ENTRIES SKIPPED
+
+
+---- eDemand  =E=  output must equal demand              [GW]
+
+eDemand(peak)..  vPwrOut(peak,Nuke) + vPwrOut(peak,CCGT) + vPwrOut(peak,CT) =E= 63.491 ; (LHS = 0, INFES = 63.491 ****)
+     
+eDemand(shoulder)..  vPwrOut(shoulder,Nuke) + vPwrOut(shoulder,CCGT) + vPwrOut(shoulder,CT) =E= 54.135 ; (LHS = 0, INFES = 54.135 ****)
+     
+eDemand(low)..  vPwrOut(low,Nuke) + vPwrOut(low,CCGT) + vPwrOut(low,CT) =E= 36.028 ; (LHS = 0, INFES = 36.028 ****)
+     
+GAMS 24.2.1  r43572 Released Dec  9, 2013 WEX-WEI x86_64/MS Windows                                                                                                                                                                    03/05/14 10:51:03 Page 5
+Demo Static Capacity Planning model
+Column Listing      SOLVE DemoCapPlan Using LP From line 134
+
+
+---- vTotalCost  total system cost in target year   [M$]
+
+vTotalCost
+                (.LO, .L, .UP, .M = -INF, 0, +INF, 0)
+        1       eTotalCost
+
+
+---- vAnnualizedFixedCost  annualized fixed [cap + fixed O&M] [M$]
+
+vAnnualizedFixedCost
+                (.LO, .L, .UP, .M = -INF, 0, +INF, 0)
+       -1       eTotalCost
+        1       eFixedCost
+
+
+---- vVariableOpCost  variable O&M [fuel etc]            [M$]
+
+vVariableOpCost
+                (.LO, .L, .UP, .M = -INF, 0, +INF, 0)
+       -1       eTotalCost
+     1000       eVarCost
+
+
+---- vPwrOut  production of the unit                [GW]
+
+vPwrOut(peak,Nuke)
+                (.LO, .L, .UP, .M = 0, 0, +INF, 0)
+    -3961       eVarCost
+        1       ePwrMax(peak,Nuke)
+        1       eDemand(peak)
+
+vPwrOut(peak,CCGT)
+                (.LO, .L, .UP, .M = 0, 0, +INF, 0)
+    -7689       eVarCost
+        1       ePwrMax(peak,CCGT)
+        1       eDemand(peak)
+
+vPwrOut(peak,CT)
+                (.LO, .L, .UP, .M = 0, 0, +INF, 0)
+   -11184       eVarCost
+        1       ePwrMax(peak,CT)
+        1       eDemand(peak)
+
+REMAINING 6 ENTRIES SKIPPED
+
+---- vCapacity  total installed capacity that is used [GW]
+
+vCapacity(Nuke)
+                (.LO, .L, .UP, .M = 0, 0, +INF, 0)
+      -92       eFixedCost
+        1       eInstCap(Nuke)
+       -1       ePwrMax(peak,Nuke)
+       -1       ePwrMax(shoulder,Nuke)
+GAMS 24.2.1  r43572 Released Dec  9, 2013 WEX-WEI x86_64/MS Windows                                                                                                                                                                    03/05/14 10:51:03 Page 6
+Demo Static Capacity Planning model
+Column Listing      SOLVE DemoCapPlan Using LP From line 134
+
+
+     vCapacity  total installed capacity that is used [GW]
+
+       -1       ePwrMax(low,Nuke)
+
+vCapacity(CCGT)
+                (.LO, .L, .UP, .M = 0, 0, +INF, 0)
+      -36       eFixedCost
+        1       eInstCap(CCGT)
+       -1       ePwrMax(peak,CCGT)
+       -1       ePwrMax(shoulder,CCGT)
+       -1       ePwrMax(low,CCGT)
+
+vCapacity(CT)
+                (.LO, .L, .UP, .M = 0, 0, +INF, 0)
+      -32.5     eFixedCost
+        1       eInstCap(CT)
+       -1       ePwrMax(peak,CT)
+       -1       ePwrMax(shoulder,CT)
+       -1       ePwrMax(low,CT)
+
+GAMS 24.2.1  r43572 Released Dec  9, 2013 WEX-WEI x86_64/MS Windows                                                                                                                                                                    03/05/14 10:51:03 Page 7
+Demo Static Capacity Planning model
+Model Statistics    SOLVE DemoCapPlan Using LP From line 134
+
+
+MODEL STATISTICS
+
+BLOCKS OF EQUATIONS           6     SINGLE EQUATIONS           18
+BLOCKS OF VARIABLES           5     SINGLE VARIABLES           15
+NON ZERO ELEMENTS            47
+
+
+GENERATION TIME      =        0.016 SECONDS      4 MB  24.2.1 r43572 WEX-WEI
+
+
+EXECUTION TIME       =        0.016 SECONDS      4 MB  24.2.1 r43572 WEX-WEI
+GAMS 24.2.1  r43572 Released Dec  9, 2013 WEX-WEI x86_64/MS Windows                                                                                                                                                                    03/05/14 10:51:03 Page 8
+Demo Static Capacity Planning model
+Solution Report     SOLVE DemoCapPlan Using LP From line 134
+
+
+               S O L V E      S U M M A R Y
+
+     MODEL   DemoCapPlan         OBJECTIVE  vTotalCost
+     TYPE    LP                  DIRECTION  MINIMIZE
+     SOLVER  CPLEX               FROM LINE  134
+
+**** SOLVER STATUS     1 Normal Completion         
+**** MODEL STATUS      1 Optimal                   
+**** OBJECTIVE VALUE            11831.1862
+
+ RESOURCE USAGE, LIMIT          0.032      1000.000
+ ITERATION COUNT, LIMIT         9    2000000000
+
+IBM ILOG CPLEX   24.2.1 r43572 Released Dec  9, 2013 WEI x86_64/MS Windows    
+Cplex 12.6.0.0
+
+Space for names approximately 0.00 Mb
+Use option 'names no' to turn use of names off
+LP status(1): optimal
+Cplex Time: 0.00sec (det. 0.03 ticks)
+Optimal solution found.
+Objective :       11831.186233
+
+
+                           LOWER          LEVEL          UPPER         MARGINAL
+
+---- EQU eTotalCost          .              .              .             1.0000      
+---- EQU eFixedCost          .              .              .             1.0000      
+---- EQU eVarCost            .              .              .             0.0010      
+
+  eTotalCost  total system cost                  [M$]
+  eFixedCost  system fixed costs [annualized]    [M$]
+  eVarCost  system variable costs for one year [M$]
+
+---- EQU eInstCap  installed capacity                    [GW]
+
+            LOWER          LEVEL          UPPER         MARGINAL
+
+Nuke        -INF           36.0280        +INF             .          
+CCGT        -INF           18.1070        +INF             .          
+CT          -INF            9.3560        +INF             .          
+
+---- EQU ePwrMax  output lower than installed max       [GW]
+
+                     LOWER          LEVEL          UPPER         MARGINAL
+
+peak    .Nuke        -INF             .              .           -39.7230      
+peak    .CCGT        -INF             .              .           -35.9950      
+peak    .CT          -INF             .              .           -32.5000      
+shoulder.Nuke        -INF             .              .           -52.2610      
+shoulder.CCGT        -INF             .              .            -0.0050      
+shoulder.CT          -INF           -9.3560          .              .          
+low     .Nuke        -INF             .              .            -0.0160      
+GAMS 24.2.1  r43572 Released Dec  9, 2013 WEX-WEI x86_64/MS Windows                                                                                                                                                                    03/05/14 10:51:03 Page 9
+Demo Static Capacity Planning model
+Solution Report     SOLVE DemoCapPlan Using LP From line 134
+
+
+     EQU ePwrMax  output lower than installed max       [GW]
+
+                     LOWER          LEVEL          UPPER         MARGINAL
+
+low     .CCGT        -INF          -18.1070          .              .          
+low     .CT          -INF           -9.3560          .              .          
+
+---- EQU eDemand  output must equal demand              [GW]
+
+                LOWER          LEVEL          UPPER         MARGINAL
+
+peak            63.4910        63.4910        63.4910        43.6840      
+shoulder        54.1350        54.1350        54.1350       107.7830      
+low             36.0280        36.0280        36.0280        89.4530      
+
+                           LOWER          LEVEL          UPPER         MARGINAL
+
+---- VAR vTotalCost        -INF        11831.1862        +INF             .          
+---- VAR vAnnualiz~        -INF         4270.4980        +INF             .          
+---- VAR vVariable~        -INF         7560.6882        +INF             .          
+
+  vTotalCost  total system cost in target year   [M$]
+  vAnnualizedFixedCost  annualized fixed [cap + fixed O&M] [M$]
+  vVariableOpCost  variable O&M [fuel etc]            [M$]
+
+---- VAR vPwrOut  production of the unit                [GW]
+
+                     LOWER          LEVEL          UPPER         MARGINAL
+
+peak    .Nuke          .            36.0280        +INF             .          
+peak    .CCGT          .            18.1070        +INF             .          
+peak    .CT            .             9.3560        +INF             .          
+shoulder.Nuke          .            36.0280        +INF             .          
+shoulder.CCGT          .            18.1070        +INF             .          
+shoulder.CT            .              .            +INF           48.9850      
+low     .Nuke          .            36.0280        +INF             .          
+low     .CCGT          .              .            +INF           84.1600      
+low     .CT            .              .            +INF          163.0750      
+
+---- VAR vCapacity  total installed capacity that is used [GW]
+
+            LOWER          LEVEL          UPPER         MARGINAL
+
+Nuke          .            36.0280        +INF             .          
+CCGT          .            18.1070        +INF             .          
+CT            .             9.3560        +INF             .          
+
+
+**** REPORT SUMMARY :        0     NONOPT
+                             0 INFEASIBLE
+                             0  UNBOUNDED
+GAMS 24.2.1  r43572 Released Dec  9, 2013 WEX-WEI x86_64/MS Windows                                                                                                                                                                   03/05/14 10:51:03 Page 10
+Demo Static Capacity Planning model
+E x e c u t i o n
+
+
+----    138 VARIABLE vPwrOut.L  production of the unit                [GW]
+
+                Nuke        CCGT          CT
+
+peak          36.028      18.107       9.356
+shoulder      36.028      18.107
+low           36.028
+
+
+----    139 VARIABLE vCapacity.L  total installed capacity that is used [GW]
+
+Nuke 36.028,    CCGT 18.107,    CT    9.356
+
+
+
+EXECUTION TIME       =        0.000 SECONDS      3 MB  24.2.1 r43572 WEX-WEI
+
+
+USER: EF&M Group                                     G130522:1134CP-WIN
+      National Renewable Energy Laboratory                       DC3485
+
+
+**** FILE SUMMARY
+
+Input      Z:\Documents\Projects\Advanced Power\models\capplan\DemoCapPlan.gms
+Output     Z:\Documents\Projects\Advanced Power\models\capplan\DemoCapPlan.lst

@@ -1,0 +1,47 @@
+co2_pol_simp_ccst15_r20_derate,  --co2cost=15 --rps=0.2 --derate_to_maint=1 --derate=1 --plan_margin=on 
+co2_pol_simp_ccst30_r20_derate,  --co2cost=30 --rps=0.2 --derate_to_maint=1 --derate=1 --plan_margin=on 
+co2_pol_simp_ccst45_r20_derate,  --co2cost=45 --rps=0.2 --derate_to_maint=1 --derate=1 --plan_margin=on 
+co2_pol_simp_ccst60_r20_derate,  --co2cost=60 --rps=0.2 --derate_to_maint=1 --derate=1 --plan_margin=on 
+co2_pol_simp_ccst75_r20_derate,  --co2cost=75 --rps=0.2 --derate_to_maint=1 --derate=1 --plan_margin=on 
+co2_pol_simp_ccst90_r20_derate,  --co2cost=90 --rps=0.2 --derate_to_maint=1 --derate=1 --plan_margin=on 
+co2_pol_full_int60_ccst30314_r0_sep,  --uc_int_unit_min=0.06 --co2cost=30.314 --rps=0 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+co2_pol_full_int60_ccst30314_r40_sep,  --uc_int_unit_min=0.06 --co2cost=30.314 --rps=0.4 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+co2_pol_full_int60_ccst30915_r20_sep,  --uc_int_unit_min=0.06 --co2cost=30.915 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+co2_pol_full_int60_ccst45602_r0_sep,  --uc_int_unit_min=0.06 --co2cost=45.602 --rps=0 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+co2_pol_full_int60_ccst45602_r20_sep,  --uc_int_unit_min=0.06 --co2cost=45.602 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+co2_pol_full_int60_ccst45602_r40_sep,  --uc_int_unit_min=0.06 --co2cost=45.602 --rps=0.4 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+co2_pol_full_int60_ccst45602_r60_sep,  --uc_int_unit_min=0.06 --co2cost=45.602 --rps=0.6 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+co2_pol_full_int60_ccst157759_r0_sep,  --uc_int_unit_min=0.06 --co2cost=157.759 --rps=0 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+co2_pol_full_int60_ccst15_r20_sep,  --uc_int_unit_min=0.06 --co2cost=15 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+co2_pol_full_int60_ccst30_r20_sep,  --uc_int_unit_min=0.06 --co2cost=30 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+co2_pol_full_int60_ccst45_r20_sep,  --uc_int_unit_min=0.06 --co2cost=45 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+co2_pol_full_int60_ccst60_r20_sep,  --uc_int_unit_min=0.06 --co2cost=60 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+co2_pol_full_int60_ccst75_r20_sep,  --uc_int_unit_min=0.06 --co2cost=75 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+co2_pol_full_int60_ccst90_r20_sep,  --uc_int_unit_min=0.06 --co2cost=90 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+co2_pol_simp_ccst15_r20,  --co2cost=15 --rps=0.2 --maint=1 --plan_margin=on 
+co2_pol_simp_ccst30_r20,  --co2cost=30 --rps=0.2 --maint=1 --plan_margin=on 
+co2_pol_simp_ccst45_r20,  --co2cost=45 --rps=0.2 --maint=1 --plan_margin=on 
+co2_pol_simp_ccst60_r20,  --co2cost=60 --rps=0.2 --maint=1 --plan_margin=on 
+co2_pol_simp_ccst75_r20,  --co2cost=75 --rps=0.2 --maint=1 --plan_margin=on 
+co2_pol_simp_ccst90_r20,  --co2cost=90 --rps=0.2 --maint=1 --plan_margin=on 
+co2_pol_simp_r20_derate,  --co2cost=0 --rps=0.2 --derate_to_maint=1 --derate=1 --plan_margin=on 
+co2_pol_simp_r20,  --co2cost=0 --rps=0.2 --maint=1 --plan_margin=on 
+co2_pol_full_int60_ccst120_r20_sep	  --uc_int_unit_min=0.06 --co2cost=120 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+co2_pol_simp_ccst120_r20_derate	  --co2cost=120 --rps=0.2 --derate_to_maint=1 --derate=1 --plan_margin=on 
+co2_pol_full_int60_ccst105_r20_sep	  --uc_int_unit_min=0.06 --co2cost=105 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+co2_pol_simp_ccst105_r20_derate	  --co2cost=105 --rps=0.2 --derate_to_maint=1 --derate=1 --plan_margin=on 
+co2_pol_simp_r20_derate_pm1388	  --co2cost=0 --rps=0.2 --derate_to_maint=1 --derate=1 --plan_margin=0.1388 
+co2_pol_simp_ccst15_r20_derate_pm1421	  --co2cost=15 --rps=0.2 --derate_to_maint=1 --derate=1 --plan_margin=0.1421 
+co2_pol_simp_ccst30_r20_derate_pm1389	  --co2cost=30 --rps=0.2 --derate_to_maint=1 --derate=1 --plan_margin=0.1389 
+co2_pol_simp_ccst45_r20_derate_pm1584	  --co2cost=45 --rps=0.2 --derate_to_maint=1 --derate=1 --plan_margin=0.1584 
+co2_pol_simp_ccst60_r20_derate_pm2036	  --co2cost=60 --rps=0.2 --derate_to_maint=1 --derate=1 --plan_margin=0.2036 
+co2_pol_simp_ccst75_r20_derate_pm2156	  --co2cost=75 --rps=0.2 --derate_to_maint=1 --derate=1 --plan_margin=0.2156 
+co2_pol_simp_ccst90_r20_derate_pm1726	  --co2cost=90 --rps=0.2 --derate_to_maint=1 --derate=1 --plan_margin=0.1726 
+co2_pol_simp_ccst105_r20_derate_pm2114	  --co2cost=105 --rps=0.2 --derate_to_maint=1 --derate=1 --plan_margin=0.2114 
+co2_pol_simp_ccst120_r20_derate_pm2800	  --co2cost=120 --rps=0.2 --derate_to_maint=1 --derate=1 --plan_margin=0.28 
+co2_pol_simp_ccst90_r20_derate_f2035ref	  --co2cost=90 --rps=0.2 --derate_to_maint=1 --derate=1 --plan_margin=on --fuel=fuel2035_aeo12_ref_usa.inc 
+co2_pol_full_int60_ccst90_r20_sep_f2035ref	  --uc_int_unit_min=0.06 --co2cost=90 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+co2_pol_simp_ccst90_r20_derate_f35loCoal	  --co2cost=90 --rps=0.2 --derate_to_maint=1 --derate=1 --plan_margin=on --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+co2_pol_full_int60_ccst90_r20_sep_f35loCoal	  --uc_int_unit_min=0.06 --co2cost=90 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+co2_pol_simp_ccst90_r20_derate_pm1741_f2035ref	  --co2cost=90 --rps=0.2 --derate_to_maint=1 --derate=1 --plan_margin=0.1741 --fuel=fuel2035_aeo12_ref_usa.inc 
+co2_pol_simp_ccst90_r20_derate_pm1540_f35loCoal	  --co2cost=90 --rps=0.2 --derate_to_maint=1 --derate=1 --plan_margin=0.154 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 

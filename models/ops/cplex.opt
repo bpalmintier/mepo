@@ -1,0 +1,44 @@
+* Note: the number of threads can either be specified explicitly or using "0" for use all cores
+threads 1
+
+*Parallel mode. Options:
+* 1=deterministic & repeatable, 0=automatic, -1=opportunistic & non-repeatable 
+parallelmode 1
+
+* Conserve memory when possible... hopefully avoid crashes b/c of memory
+memoryemphasis 1
+
+* Declare solution method for pure LP, RMIP, and final MIP solve. 
+*   Options: 0=automatic, 2=Dual Simplex, 4=barrier, 6=concurrent (a race between
+* dual simplex and barrier in parallel)
+*
+* Sometimes barrier is notably faster for operations problems, but more often dual simplex wins
+* Barrier is often better for planning problems
+LPmethod 4
+* Solution method for solving the root MIP node. See description and options for LPmethod above
+startalg 4
+* Solution method for solving sub MIP nodes. See description and options for LPmethod above
+* subalg 4
+
+* Tighten LP tolerance (default 1e-6). For problems with objective values close to 1, this 
+* may be necessary to find the true optimal. In particular, with MILP, using the default can 
+* cause the final LP solve to stop short of finding the best node from the MILP branch-and-cut
+* Surprisingly, a tighter tolerance can also achieve FASTER run times for MILP, presumably
+* because the nodes can be compared more carefully.
+epopt 1e-9
+
+* Stay with barrier until the optimal solution is found rather than crossing over to simplex
+* This can run much faster for these problems, because the final simplex iterations can be 
+* slow and b/c the cross-over itself takes a good bit of time. However, the approach is not
+* robust and can fail or be slower than the default behavior. Not recommended with barrier 
+* alone (LPmethod = 4) b/c may not converge. Consider for concurrent optimization.
+*barcrossalg -1
+
+* Ignore small (dual) infeasibilities in the final LP solve. Without this setting, occasionally
+* CPLEX will get unhappy with an infeasibility on the order of 1e-6
+relaxfixedinfeas 1
+
+*enable relative epsilon optimal (cheat) parameter
+*This value is not used if cheat is defined
+relobjdif 0
+

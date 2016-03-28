@@ -1,0 +1,36 @@
+#+++++++++++++++++ Repeated GAMS running Template +++++++++++++++++
+# Template requires 2 (printf style) substitutions:
+#     string     run_id
+#     string     gams_options
+#
+# See header template for version information
+
+RUN_CODE="%s"
+
+#Make a temporary run directory in scratch
+WORK_DIR="${SCRATCH}/tmp_${RUN_CODE}/"
+mkdir ${WORK_DIR}
+cp ${MODEL_DIR}${GAMS_MODEL}.gms  ${WORK_DIR}
+cd ${WORK_DIR}
+
+echo "${GAMS_MODEL} copied to temporary ${WORK_DIR}"
+pwd
+
+# Setup run specific OPT
+# Note reduced planning margin b/c computing reserves directly
+RUN_OPT=" %s "
+SHARE_OPT=" ${LONG_OPT} ${THIS_FILE_OPT} "
+IO_OPT=" ${COMMON_IO_OPT} -lf=${OUT_DIR}${RUN_CODE}_${GAMS_MODEL}.log -o=${OUT_DIR}${RUN_CODE}_${GAMS_MODEL}.lst --out_prefix=${RUN_CODE}_ --memo=${RUN_CODE}_v${ADVPOWER_REPO_VER}_${DATE_TIME} "
+
+#Now run GAMS-CPLEX
+echo "--- GAMS Run code ${RUN_CODE} ---"
+echo "  GAMS Model ${GAMS_MODEL}"
+echo "  IO OPT ${IO_OPT}"
+echo "  Shared OPT: ${SHARE_OPT}"
+echo "  Run OPT: ${RUN_OPT}"
+echo .
+gams ${GAMS_MODEL} ${IO_OPT} ${SHARE_OPT} ${RUN_OPT} &
+
+cd ${MODEL_DIR}
+pwd
+

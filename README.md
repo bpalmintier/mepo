@@ -6,6 +6,9 @@ A GAMS/CPLEX model for generation planning, unit commitment, and production cost
  * Native support for clustered generator commitment (integer rather than binary) for very fast execution
  * Highly Configurable constraints. Can enable/disable indivdually at run time
  * Same operations model used in both production costing and simulation
+
+## Getting Started
+To get started with the Advanced Power Family of models please consult "User Guide-StaticCapPlan & UnitCommit" in the docs directory.
  
 ## Citations:
 If you find this tool useful, please cite:

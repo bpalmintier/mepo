@@ -1,0 +1,54 @@
+#======= Repeated GAMS running Template =======
+# Template requires 4 (printf style) substitutions:
+#     string     output directory
+#     string     run_id
+#     string     gams_extra_options
+#     string     background task
+
+#  Version History
+# Ver   Date       Time  Who            What
+# ---  ----------  ----- -------------- ---------------------------------
+#   1  2011-10-08  04:20  bpalmintier   Adapted from pbs_time1.sh v4
+#   2  2011-10-08  21:00  bpalmintier   Implemented use of scratch space
+#   3  2011-11-03  03:50  bpalmintier   Added Svante job to memo
+
+OUT_DIR="${HOME}/projects/advpower/models/ops/out/%s"
+#Make sure output directory exists
+mkdir ${OUT_DIR}
+
+RUN_CODE="%s"
+
+#Make a temporary run directory in scratch
+WORK_DIR="${SCRATCH}/tmp_${RUN_CODE}/"
+mkdir ${WORK_DIR}
+cp ${MODEL_DIR}${GAMS_MODEL}.gms   ${WORK_DIR}
+cd ${WORK_DIR}
+
+echo "${GAMS_MODEL} copied to temporary ${WORK_DIR}"
+pwd
+
+# Default GAMS options to:
+#   errmsg:     enable in-line description of errors in list file
+#   lf & lo:    store the solver log (normally printed to screen) in $OUT_DIR
+#   o:          rename the list file and store in $OUT_DIR
+#   inputdir:   Look for $include and $batinclude files in $WORK_DIR
+# And Advanced Power Model options to:
+#   out_dir:    specify directory for CSV output files 
+#   out_prefix: add a unique run_id to all output files
+#   memo:       encode some helpful run information in the summary file
+#
+# Plus additional user supplied options pasted into template
+GAMS_OPTIONS="-errmsg=1 -lf=${OUT_DIR}${RUN_CODE}_${GAMS_MODEL}.log -lo=2 -o=${OUT_DIR}${RUN_CODE}_${GAMS_MODEL}.lst -inputdir=${MODEL_DIR} --out_dir=${OUT_DIR} --out_prefix=${RUN_CODE}_ --memo=${RUN_CODE}_run_time_compare_${RUN_CODE}_v${ADVPOWER_REPO_VER}_${DATE_TIME}   %s"
+
+#Now run GAMS-CPLEX
+echo "Running ${GAMS_MODEL} using GAMS"
+echo "  Options: ${GAMS_OPTIONS}"
+echo .
+gams ${GAMS_MODEL} ${GAMS_OPTIONS} %s
+echo "GAMS Done (${RUN_CODE})"
+echo .
+
+cd ${MODEL_DIR}
+pwd
+
+

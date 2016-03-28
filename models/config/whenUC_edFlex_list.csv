@@ -1,0 +1,69 @@
+whenUC_edFlex_r0_flex,  --uc_ignore_unit_min=Inf --co2cost=0 --rps=0 --maint=1 --rsrv=flex --plan_margin=0.05 
+whenUC_edFlex_r20_flex,  --uc_ignore_unit_min=Inf --co2cost=0 --rps=0.2 --maint=1 --rsrv=flex --plan_margin=0.05 
+whenUC_edFlex_r40_flex,  --uc_ignore_unit_min=Inf --co2cost=0 --rps=0.4 --maint=1 --rsrv=flex --plan_margin=0.05 
+whenUC_edFlex_r60_flex,  --uc_ignore_unit_min=Inf --co2cost=0 --rps=0.6 --maint=1 --rsrv=flex --plan_margin=0.05 
+whenUC_edFlex_r80_flex,  --uc_ignore_unit_min=Inf --co2cost=0 --rps=0.8 --maint=1 --rsrv=flex --plan_margin=0.05 
+whenUC_edFlex_cmx141_r0_flex,  --uc_ignore_unit_min=Inf --co2cap=141 --rps=0 --maint=1 --rsrv=flex --plan_margin=0.05 
+whenUC_edFlex_cmx141_r20_flex,  --uc_ignore_unit_min=Inf --co2cap=141 --rps=0.2 --maint=1 --rsrv=flex --plan_margin=0.05 
+whenUC_edFlex_cmx141_r40_flex,  --uc_ignore_unit_min=Inf --co2cap=141 --rps=0.4 --maint=1 --rsrv=flex --plan_margin=0.05 
+whenUC_edFlex_cmx141_r60_flex,  --uc_ignore_unit_min=Inf --co2cap=141 --rps=0.6 --maint=1 --rsrv=flex --plan_margin=0.05 
+whenUC_edFlex_cmx141_r80_flex,  --uc_ignore_unit_min=Inf --co2cap=141 --rps=0.8 --maint=1 --rsrv=flex --plan_margin=0.05 
+whenUC_edFlex_cmx94_r0_flex,  --uc_ignore_unit_min=Inf --co2cap=94 --rps=0 --maint=1 --rsrv=flex --plan_margin=0.05 
+whenUC_edFlex_cmx94_r20_flex,  --uc_ignore_unit_min=Inf --co2cap=94 --rps=0.2 --maint=1 --rsrv=flex --plan_margin=0.05 
+whenUC_edFlex_cmx94_r40_flex,  --uc_ignore_unit_min=Inf --co2cap=94 --rps=0.4 --maint=1 --rsrv=flex --plan_margin=0.05 
+whenUC_edFlex_cmx94_r60_flex,  --uc_ignore_unit_min=Inf --co2cap=94 --rps=0.6 --maint=1 --rsrv=flex --plan_margin=0.05 
+whenUC_edFlex_cmx94_r80_flex,  --uc_ignore_unit_min=Inf --co2cap=94 --rps=0.8 --maint=1 --rsrv=flex --plan_margin=0.05 
+whenUC_edFlex_cmx47_r0_flex,  --uc_ignore_unit_min=Inf --co2cap=47 --rps=0 --maint=1 --rsrv=flex --plan_margin=0.05 
+whenUC_edFlex_cmx47_r20_flex,  --uc_ignore_unit_min=Inf --co2cap=47 --rps=0.2 --maint=1 --rsrv=flex --plan_margin=0.05 
+whenUC_edFlex_cmx47_r40_flex,  --uc_ignore_unit_min=Inf --co2cap=47 --rps=0.4 --maint=1 --rsrv=flex --plan_margin=0.05 
+whenUC_edFlex_cmx47_r60_flex,  --uc_ignore_unit_min=Inf --co2cap=47 --rps=0.6 --maint=1 --rsrv=flex --plan_margin=0.05 
+whenUC_edFlex_cmx47_r80_flex,  --uc_ignore_unit_min=Inf --co2cap=47 --rps=0.8 --maint=1 --rsrv=flex --plan_margin=0.05 
+whenUC_edFlex_r60_flex_ar4n,  --uc_ignore_unit_min=Inf --co2cost=0 --rps=0.6 --maint=1 --rsrv=flex --plan_margin=0.05 --adj_rsrv_for_nse=on 
+whenUC_edFlex_r80_flex_ar4n,  --uc_ignore_unit_min=Inf --co2cost=0 --rps=0.8 --maint=1 --rsrv=flex --plan_margin=0.05 --adj_rsrv_for_nse=on 
+whenUC_edFlex_cmx141_r60_flex_ar4n,  --uc_ignore_unit_min=Inf --co2cap=141 --rps=0.6 --maint=1 --rsrv=flex --plan_margin=0.05 --adj_rsrv_for_nse=on 
+whenUC_edFlex_cmx141_r80_flex_ar4n,  --uc_ignore_unit_min=Inf --co2cap=141 --rps=0.8 --maint=1 --rsrv=flex --plan_margin=0.05 --adj_rsrv_for_nse=on 
+whenUC_edFlex_cmx94_r60_flex_ar4n,  --uc_ignore_unit_min=Inf --co2cap=94 --rps=0.6 --maint=1 --rsrv=flex --plan_margin=0.05 --adj_rsrv_for_nse=on 
+whenUC_edFlex_cmx94_r80_flex_ar4n,  --uc_ignore_unit_min=Inf --co2cap=94 --rps=0.8 --maint=1 --rsrv=flex --plan_margin=0.05 --adj_rsrv_for_nse=on 
+whenUC_edFlex_cmx47_r60_flex_ar4n,  --uc_ignore_unit_min=Inf --co2cap=47 --rps=0.6 --maint=1 --rsrv=flex --plan_margin=0.05 --adj_rsrv_for_nse=on 
+whenUC_edFlex_cmx47_r80_flex_ar4n,  --uc_ignore_unit_min=Inf --co2cap=47 --rps=0.8 --maint=1 --rsrv=flex --plan_margin=0.05 --adj_rsrv_for_nse=on 
+whenUC_edFlex_r0_derate_flex,  --uc_ignore_unit_min=Inf --co2cost=0 --rps=0 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 
+whenUC_edFlex_r20_derate_flex,  --uc_ignore_unit_min=Inf --co2cost=0 --rps=0.2 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 
+whenUC_edFlex_r40_derate_flex,  --uc_ignore_unit_min=Inf --co2cost=0 --rps=0.4 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 
+whenUC_edFlex_r60_derate_flex_ar4n,  --uc_ignore_unit_min=Inf --co2cost=0 --rps=0.6 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 --adj_rsrv_for_nse=on 
+whenUC_edFlex_r80_derate_flex_ar4n,  --uc_ignore_unit_min=Inf --co2cost=0 --rps=0.8 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 --adj_rsrv_for_nse=on 
+whenUC_edFlex_cmx141_r0_derate_flex,  --uc_ignore_unit_min=Inf --co2cap=141 --rps=0 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 
+whenUC_edFlex_cmx141_r20_derate_flex,  --uc_ignore_unit_min=Inf --co2cap=141 --rps=0.2 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 
+whenUC_edFlex_cmx141_r40_derate_flex,  --uc_ignore_unit_min=Inf --co2cap=141 --rps=0.4 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 
+whenUC_edFlex_cmx141_r60_derate_flex_ar4n,  --uc_ignore_unit_min=Inf --co2cap=141 --rps=0.6 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 --adj_rsrv_for_nse=on 
+whenUC_edFlex_cmx141_r80_derate_flex_ar4n,  --uc_ignore_unit_min=Inf --co2cap=141 --rps=0.8 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 --adj_rsrv_for_nse=on 
+whenUC_edFlex_cmx94_r0_derate_flex,  --uc_ignore_unit_min=Inf --co2cap=94 --rps=0 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 
+whenUC_edFlex_cmx94_r20_derate_flex,  --uc_ignore_unit_min=Inf --co2cap=94 --rps=0.2 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 
+whenUC_edFlex_cmx94_r40_derate_flex,  --uc_ignore_unit_min=Inf --co2cap=94 --rps=0.4 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 
+whenUC_edFlex_cmx94_r60_derate_flex_ar4n,  --uc_ignore_unit_min=Inf --co2cap=94 --rps=0.6 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 --adj_rsrv_for_nse=on 
+whenUC_edFlex_cmx94_r80_derate_flex_ar4n,  --uc_ignore_unit_min=Inf --co2cap=94 --rps=0.8 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 --adj_rsrv_for_nse=on 
+whenUC_edFlex_cmx47_r0_derate_flex,  --uc_ignore_unit_min=Inf --co2cap=47 --rps=0 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 
+whenUC_edFlex_cmx47_r20_derate_flex,  --uc_ignore_unit_min=Inf --co2cap=47 --rps=0.2 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 
+whenUC_edFlex_cmx47_r40_derate_flex,  --uc_ignore_unit_min=Inf --co2cap=47 --rps=0.4 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 
+whenUC_edFlex_cmx47_r60_derate_flex_ar4n,  --uc_ignore_unit_min=Inf --co2cap=47 --rps=0.6 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 --adj_rsrv_for_nse=on 
+whenUC_edFlex_cmx47_r80_derate_flex_ar4n,  --uc_ignore_unit_min=Inf --co2cap=47 --rps=0.8 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 --adj_rsrv_for_nse=on 
+whenUC_edFlex_r0_derate_flex_olRv	  --uc_ignore_unit_min=Inf --co2cost=0 --rps=0 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 --no_quick_st=1 --non_uc_rsrv_up_offline=0.6 --non_uc_rsrv_down_offline=0.6 
+whenUC_edFlex_r20_derate_flex_olRv	  --uc_ignore_unit_min=Inf --co2cost=0 --rps=0.2 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 --no_quick_st=1 --non_uc_rsrv_up_offline=0.6 --non_uc_rsrv_down_offline=0.6 
+whenUC_edFlex_r40_derate_flex_olRv	  --uc_ignore_unit_min=Inf --co2cost=0 --rps=0.4 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 --no_quick_st=1 --non_uc_rsrv_up_offline=0.6 --non_uc_rsrv_down_offline=0.6 
+whenUC_edFlex_r60_derate_flex_ar4n_olRv	  --uc_ignore_unit_min=Inf --co2cost=0 --rps=0.6 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 --adj_rsrv_for_nse=on --no_quick_st=1 --non_uc_rsrv_up_offline=0.6 --non_uc_rsrv_down_offline=0.6 
+whenUC_edFlex_r80_derate_flex_ar4n_olRv	  --uc_ignore_unit_min=Inf --co2cost=0 --rps=0.8 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 --adj_rsrv_for_nse=on --no_quick_st=1 --non_uc_rsrv_up_offline=0.6 --non_uc_rsrv_down_offline=0.6 
+whenUC_edFlex_cmx141_r0_derate_flex_olRv	  --uc_ignore_unit_min=Inf --co2cap=141 --rps=0 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 --no_quick_st=1 --non_uc_rsrv_up_offline=0.6 --non_uc_rsrv_down_offline=0.6 
+whenUC_edFlex_cmx141_r20_derate_flex_olRv	  --uc_ignore_unit_min=Inf --co2cap=141 --rps=0.2 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 --no_quick_st=1 --non_uc_rsrv_up_offline=0.6 --non_uc_rsrv_down_offline=0.6 
+whenUC_edFlex_cmx141_r40_derate_flex_olRv	  --uc_ignore_unit_min=Inf --co2cap=141 --rps=0.4 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 --no_quick_st=1 --non_uc_rsrv_up_offline=0.6 --non_uc_rsrv_down_offline=0.6 
+whenUC_edFlex_cmx141_r60_derate_flex_ar4n_olRv	  --uc_ignore_unit_min=Inf --co2cap=141 --rps=0.6 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 --adj_rsrv_for_nse=on --no_quick_st=1 --non_uc_rsrv_up_offline=0.6 --non_uc_rsrv_down_offline=0.6 
+whenUC_edFlex_cmx141_r80_derate_flex_ar4n_olRv	  --uc_ignore_unit_min=Inf --co2cap=141 --rps=0.8 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 --adj_rsrv_for_nse=on --no_quick_st=1 --non_uc_rsrv_up_offline=0.6 --non_uc_rsrv_down_offline=0.6 
+whenUC_edFlex_cmx94_r0_derate_flex_olRv	  --uc_ignore_unit_min=Inf --co2cap=94 --rps=0 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 --no_quick_st=1 --non_uc_rsrv_up_offline=0.6 --non_uc_rsrv_down_offline=0.6 
+whenUC_edFlex_cmx94_r20_derate_flex_olRv	  --uc_ignore_unit_min=Inf --co2cap=94 --rps=0.2 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 --no_quick_st=1 --non_uc_rsrv_up_offline=0.6 --non_uc_rsrv_down_offline=0.6 
+whenUC_edFlex_cmx94_r40_derate_flex_olRv	  --uc_ignore_unit_min=Inf --co2cap=94 --rps=0.4 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 --no_quick_st=1 --non_uc_rsrv_up_offline=0.6 --non_uc_rsrv_down_offline=0.6 
+whenUC_edFlex_cmx94_r60_derate_flex_ar4n_olRv	  --uc_ignore_unit_min=Inf --co2cap=94 --rps=0.6 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 --adj_rsrv_for_nse=on --no_quick_st=1 --non_uc_rsrv_up_offline=0.6 --non_uc_rsrv_down_offline=0.6 
+whenUC_edFlex_cmx94_r80_derate_flex_ar4n_olRv	  --uc_ignore_unit_min=Inf --co2cap=94 --rps=0.8 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 --adj_rsrv_for_nse=on --no_quick_st=1 --non_uc_rsrv_up_offline=0.6 --non_uc_rsrv_down_offline=0.6 
+whenUC_edFlex_cmx47_r0_derate_flex_olRv	  --uc_ignore_unit_min=Inf --co2cap=47 --rps=0 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 --no_quick_st=1 --non_uc_rsrv_up_offline=0.6 --non_uc_rsrv_down_offline=0.6 
+whenUC_edFlex_cmx47_r20_derate_flex_olRv	  --uc_ignore_unit_min=Inf --co2cap=47 --rps=0.2 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 --no_quick_st=1 --non_uc_rsrv_up_offline=0.6 --non_uc_rsrv_down_offline=0.6 
+whenUC_edFlex_cmx47_r40_derate_flex_olRv	  --uc_ignore_unit_min=Inf --co2cap=47 --rps=0.4 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 --no_quick_st=1 --non_uc_rsrv_up_offline=0.6 --non_uc_rsrv_down_offline=0.6 
+whenUC_edFlex_cmx47_r60_derate_flex_ar4n_olRv	  --uc_ignore_unit_min=Inf --co2cap=47 --rps=0.6 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 --adj_rsrv_for_nse=on --no_quick_st=1 --non_uc_rsrv_up_offline=0.6 --non_uc_rsrv_down_offline=0.6 
+whenUC_edFlex_cmx47_r80_derate_flex_ar4n_olRv	  --uc_ignore_unit_min=Inf --co2cap=47 --rps=0.8 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 --adj_rsrv_for_nse=on --no_quick_st=1 --non_uc_rsrv_up_offline=0.6 --non_uc_rsrv_down_offline=0.6 
+whenUC_edFlex_r0_derate_flex_pm1375_olRv	  --uc_ignore_unit_min=Inf --co2cost=0 --rps=0 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.1375 --no_quick_st=1 --non_uc_rsrv_up_offline=0.6 --non_uc_rsrv_down_offline=0.6 

@@ -1,0 +1,27 @@
+whenUC_uclp_r0_sep,  --uc_int_unit_min=Inf --co2cost=0 --rps=0 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+whenUC_uclp_r20_sep,  --uc_int_unit_min=Inf --co2cost=0 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+whenUC_uclp_r40_sep,  --uc_int_unit_min=Inf --co2cost=0 --rps=0.4 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+whenUC_uclp_r60_sep,  --uc_int_unit_min=Inf --co2cost=0 --rps=0.6 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+whenUC_uclp_r80_sep,  --uc_int_unit_min=Inf --co2cost=0 --rps=0.8 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+whenUC_uclp_cmx141_r0_sep,  --uc_int_unit_min=Inf --co2cap=141 --rps=0 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+whenUC_uclp_cmx141_r20_sep,  --uc_int_unit_min=Inf --co2cap=141 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+whenUC_uclp_cmx141_r40_sep,  --uc_int_unit_min=Inf --co2cap=141 --rps=0.4 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+whenUC_uclp_cmx141_r60_sep,  --uc_int_unit_min=Inf --co2cap=141 --rps=0.6 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+whenUC_uclp_cmx141_r80_sep,  --uc_int_unit_min=Inf --co2cap=141 --rps=0.8 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+whenUC_uclp_cmx94_r0_sep,  --uc_int_unit_min=Inf --co2cap=94 --rps=0 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+whenUC_uclp_cmx94_r20_sep,  --uc_int_unit_min=Inf --co2cap=94 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+whenUC_uclp_cmx94_r40_sep,  --uc_int_unit_min=Inf --co2cap=94 --rps=0.4 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+whenUC_uclp_cmx94_r60_sep,  --uc_int_unit_min=Inf --co2cap=94 --rps=0.6 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+whenUC_uclp_cmx94_r80_sep,  --uc_int_unit_min=Inf --co2cap=94 --rps=0.8 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+whenUC_uclp_cmx47_r0_sep,  --uc_int_unit_min=Inf --co2cap=47 --rps=0 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+whenUC_uclp_cmx47_r20_sep,  --uc_int_unit_min=Inf --co2cap=47 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+whenUC_uclp_cmx47_r40_sep,  --uc_int_unit_min=Inf --co2cap=47 --rps=0.4 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+whenUC_uclp_cmx47_r60_sep,  --uc_int_unit_min=Inf --co2cap=47 --rps=0.6 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+whenUC_uclp_cmx47_r80_sep,  --uc_int_unit_min=Inf --co2cap=47 --rps=0.8 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+whenUC_uclp_r80_sep_ar4n	  --uc_int_unit_min=Inf --co2cost=0 --rps=0.8 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 --adj_rsrv_for_nse=on 
+whenUC_uclp_cmx141_r80_sep_ar4n	  --uc_int_unit_min=Inf --co2cap=141 --rps=0.8 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 --adj_rsrv_for_nse=on 
+whenUC_uclp_cmx94_r80_sep_ar4n	  --uc_int_unit_min=Inf --co2cap=94 --rps=0.8 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 --adj_rsrv_for_nse=on 
+whenUC_uclp_cmx47_r80_sep_ar4n	  --uc_int_unit_min=Inf --co2cap=47 --rps=0.8 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 --adj_rsrv_for_nse=on 
+whenUC_uclp_r0_sep_pm1375	  --uc_int_unit_min=Inf --co2cost=0 --rps=0 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.1375 
+whenUC_uclp_cmx141_r0_sep_pm1375	  --uc_int_unit_min=Inf --co2cap=141 --rps=0 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.1375 
+whenUC_uclp_cmx94_r0_sep_pm1375	  --uc_int_unit_min=Inf --co2cap=94 --rps=0 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.1375 

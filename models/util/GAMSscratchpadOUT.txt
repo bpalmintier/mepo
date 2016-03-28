@@ -1,0 +1,24 @@
+s1 test
+s2 test
+s3 test
+w1:this
+w2:is
+w3:a
+w4:test
+w5:
+w6:
+w1:that
+w2:was
+w3:a
+w1:we
+w2:clear?
+w3:
+w4:
+w5:
+w6:
+w2:set
+w3:set
+w2: Not Empty
+w2: Not Empty CHECK
+w3: Empty
+w3: Empty CHECK

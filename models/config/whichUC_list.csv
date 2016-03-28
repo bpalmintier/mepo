@@ -1,0 +1,442 @@
+whichUC_full_int60_r10_sep_pmarg0,  --uc_int_unit_min=0.06 --co2cost=0 --rps=0.1 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0 
+whichUC_noMaint_int60_r10_sep_pmarg0,  --uc_int_unit_min=0.06 --co2cost=0 --rps=0.1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0 
+whichUC_full_int60_r10_flex_pmarg0,  --uc_int_unit_min=0.06 --co2cost=0 --rps=0.1 --maint=1 --rsrv=flex --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0 
+whichUC_noRsrv_int60_r10_pmarg0,  --uc_int_unit_min=0.06 --co2cost=0 --rps=0.1 --maint=1 --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0 
+whichUC_noRamp_int60_r10_sep_pmarg0,  --uc_int_unit_min=0.06 --co2cost=0 --rps=0.1 --maint=1 --rsrv=separate --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0 
+whichUC_noStart_int60_r10_sep_pmarg0,  --uc_int_unit_min=0.06 --co2cost=0 --rps=0.1 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --min_up_down=1 --plan_margin=0 
+whichUC_noMinUpDwn_int60_r10_sep_pmarg0,  --uc_int_unit_min=0.06 --co2cost=0 --rps=0.1 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --plan_margin=0 
+whichUC_onlyMaint_r10_pmarg0,  --co2cost=0 --rps=0.1 --maint=1 --plan_margin=0 
+whichUC_simp_noDerate_r10_pmarg0,  --co2cost=0 --rps=0.1 --plan_margin=0 
+whichUC_onlySep_r10_sep_pmarg0,  --co2cost=0 --rps=0.1 --rsrv=separate --plan_margin=0 
+whichUC_onlyFlex_r10_flex_pmarg0,  --co2cost=0 --rps=0.1 --rsrv=flex --plan_margin=0 
+whichUC_onlyRamp_r10_pmarg0,  --co2cost=0 --rps=0.1 --ramp=1 --plan_margin=0 
+whichUC_onlyUC_int60_r10_pmarg0,  --uc_int_unit_min=0.06 --co2cost=0 --rps=0.1 --unit_commit=1 --plan_margin=0 
+whichUC_onlyStart_int60_r10_pmarg0,  --uc_int_unit_min=0.06 --co2cost=0 --rps=0.1 --startup=1 --plan_margin=0 
+whichUC_onlyMinUpDwn_int60_r10_pmarg0,  --uc_int_unit_min=0.06 --co2cost=0 --rps=0.1 --min_up_down=1 --plan_margin=0 
+whichUC_full_int60_cmx94_r40_sep_pmarg0,  --uc_int_unit_min=0.06 --co2cap=94 --rps=0.4 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0 
+whichUC_noMaint_int60_cmx94_r40_sep_pmarg0,  --uc_int_unit_min=0.06 --co2cap=94 --rps=0.4 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0 
+whichUC_full_int60_cmx94_r40_flex_pmarg0,  --uc_int_unit_min=0.06 --co2cap=94 --rps=0.4 --maint=1 --rsrv=flex --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0 
+whichUC_noRsrv_int60_cmx94_r40_pmarg0,  --uc_int_unit_min=0.06 --co2cap=94 --rps=0.4 --maint=1 --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0 
+whichUC_noRamp_int60_cmx94_r40_sep_pmarg0,  --uc_int_unit_min=0.06 --co2cap=94 --rps=0.4 --maint=1 --rsrv=separate --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0 
+whichUC_noStart_int60_cmx94_r40_sep_pmarg0,  --uc_int_unit_min=0.06 --co2cap=94 --rps=0.4 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --min_up_down=1 --plan_margin=0 
+whichUC_noMinUpDwn_int60_cmx94_r40_sep_pmarg0,  --uc_int_unit_min=0.06 --co2cap=94 --rps=0.4 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --plan_margin=0 
+whichUC_onlyMaint_cmx94_r40_pmarg0,  --co2cap=94 --rps=0.4 --maint=1 --plan_margin=0 
+whichUC_simp_noDerate_cmx94_r40_pmarg0,  --co2cap=94 --rps=0.4 --plan_margin=0 
+whichUC_onlySep_cmx94_r40_sep_pmarg0,  --co2cap=94 --rps=0.4 --rsrv=separate --plan_margin=0 
+whichUC_onlyFlex_cmx94_r40_flex_pmarg0,  --co2cap=94 --rps=0.4 --rsrv=flex --plan_margin=0 
+whichUC_onlyRamp_cmx94_r40_pmarg0,  --co2cap=94 --rps=0.4 --ramp=1 --plan_margin=0 
+whichUC_onlyUC_int60_cmx94_r40_pmarg0,  --uc_int_unit_min=0.06 --co2cap=94 --rps=0.4 --unit_commit=1 --plan_margin=0 
+whichUC_onlyStart_int60_cmx94_r40_pmarg0,  --uc_int_unit_min=0.06 --co2cap=94 --rps=0.4 --startup=1 --plan_margin=0 
+whichUC_onlyMinUpDwn_int60_cmx94_r40_pmarg0,  --uc_int_unit_min=0.06 --co2cap=94 --rps=0.4 --min_up_down=1 --plan_margin=0 
+whichUC_full_int60_cmx94_r20_sep_pmarg0,  --uc_int_unit_min=0.06 --co2cap=94 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0 
+whichUC_noMaint_int60_cmx94_r20_sep_pmarg0,  --uc_int_unit_min=0.06 --co2cap=94 --rps=0.2 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0 
+whichUC_full_int60_cmx94_r20_flex_pmarg0,  --uc_int_unit_min=0.06 --co2cap=94 --rps=0.2 --maint=1 --rsrv=flex --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0 
+whichUC_noRsrv_int60_cmx94_r20_pmarg0,  --uc_int_unit_min=0.06 --co2cap=94 --rps=0.2 --maint=1 --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0 
+whichUC_noRamp_int60_cmx94_r20_sep_pmarg0,  --uc_int_unit_min=0.06 --co2cap=94 --rps=0.2 --maint=1 --rsrv=separate --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0 
+whichUC_noStart_int60_cmx94_r20_sep_pmarg0,  --uc_int_unit_min=0.06 --co2cap=94 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --min_up_down=1 --plan_margin=0 
+whichUC_noMinUpDwn_int60_cmx94_r20_sep_pmarg0,  --uc_int_unit_min=0.06 --co2cap=94 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --plan_margin=0 
+whichUC_onlyMaint_cmx94_r20_pmarg0,  --co2cap=94 --rps=0.2 --maint=1 --plan_margin=0 
+whichUC_simp_noDerate_cmx94_r20_pmarg0,  --co2cap=94 --rps=0.2 --plan_margin=0 
+whichUC_onlySep_cmx94_r20_sep_pmarg0,  --co2cap=94 --rps=0.2 --rsrv=separate --plan_margin=0 
+whichUC_onlyFlex_cmx94_r20_flex_pmarg0,  --co2cap=94 --rps=0.2 --rsrv=flex --plan_margin=0 
+whichUC_onlyRamp_cmx94_r20_pmarg0,  --co2cap=94 --rps=0.2 --ramp=1 --plan_margin=0 
+whichUC_onlyUC_int60_cmx94_r20_pmarg0,  --uc_int_unit_min=0.06 --co2cap=94 --rps=0.2 --unit_commit=1 --plan_margin=0 
+whichUC_onlyStart_int60_cmx94_r20_pmarg0,  --uc_int_unit_min=0.06 --co2cap=94 --rps=0.2 --startup=1 --plan_margin=0 
+whichUC_onlyMinUpDwn_int60_cmx94_r20_pmarg0,  --uc_int_unit_min=0.06 --co2cap=94 --rps=0.2 --min_up_down=1 --plan_margin=0 
+whichUC_noMaint_int60_cmx47_r40_sep,  --uc_int_unit_min=0.06 --co2cap=47 --rps=0.4 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+whichUC_full_int60_cmx47_r40_flex,  --uc_int_unit_min=0.06 --co2cap=47 --rps=0.4 --maint=1 --rsrv=flex --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+whichUC_noRsrv_int60_cmx47_r40,  --uc_int_unit_min=0.06 --co2cap=47 --rps=0.4 --maint=1 --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+whichUC_noRamp_int60_cmx47_r40_sep,  --uc_int_unit_min=0.06 --co2cap=47 --rps=0.4 --maint=1 --rsrv=separate --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+whichUC_noStart_int60_cmx47_r40_sep,  --uc_int_unit_min=0.06 --co2cap=47 --rps=0.4 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --min_up_down=1 --plan_margin=0.05 
+whichUC_noMinUpDwn_int60_cmx47_r40_sep,  --uc_int_unit_min=0.06 --co2cap=47 --rps=0.4 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --plan_margin=0.05 
+whichUC_simp_noDerate_cmx47_r40,  --co2cap=47 --rps=0.4 --plan_margin=0.05 
+whichUC_onlyFlex_cmx47_r40_flex,  --co2cap=47 --rps=0.4 --rsrv=flex --plan_margin=0.05 
+whichUC_onlyRamp_cmx47_r40,  --co2cap=47 --rps=0.4 --ramp=1 --plan_margin=0.05 
+whichUC_onlyUC_int60_cmx47_r40,  --uc_int_unit_min=0.06 --co2cap=47 --rps=0.4 --unit_commit=1 --plan_margin=0.05 
+whichUC_onlyStart_int60_cmx47_r40,  --uc_int_unit_min=0.06 --co2cap=47 --rps=0.4 --startup=1 --plan_margin=0.05 
+whichUC_onlyMinUpDwn_int60_cmx47_r40,  --uc_int_unit_min=0.06 --co2cap=47 --rps=0.4 --min_up_down=1 --plan_margin=0.05 
+whichUC_noMaint_int60_cmx94_r0_sep,  --uc_int_unit_min=0.06 --co2cap=94 --rps=0 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+whichUC_full_int60_cmx94_r0_flex,  --uc_int_unit_min=0.06 --co2cap=94 --rps=0 --maint=1 --rsrv=flex --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+whichUC_noRsrv_int60_cmx94_r0,  --uc_int_unit_min=0.06 --co2cap=94 --rps=0 --maint=1 --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+whichUC_noRamp_int60_cmx94_r0_sep,  --uc_int_unit_min=0.06 --co2cap=94 --rps=0 --maint=1 --rsrv=separate --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+whichUC_noStart_int60_cmx94_r0_sep,  --uc_int_unit_min=0.06 --co2cap=94 --rps=0 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --min_up_down=1 --plan_margin=0.05 
+whichUC_noMinUpDwn_int60_cmx94_r0_sep,  --uc_int_unit_min=0.06 --co2cap=94 --rps=0 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --plan_margin=0.05 
+whichUC_simp_noDerate_cmx94_r0,  --co2cap=94 --rps=0 --plan_margin=0.05 
+whichUC_onlyFlex_cmx94_r0_flex,  --co2cap=94 --rps=0 --rsrv=flex --plan_margin=0.05 
+whichUC_onlyRamp_cmx94_r0,  --co2cap=94 --rps=0 --ramp=1 --plan_margin=0.05 
+whichUC_onlyUC_int60_cmx94_r0,  --uc_int_unit_min=0.06 --co2cap=94 --rps=0 --unit_commit=1 --plan_margin=0.05 
+whichUC_onlyStart_int60_cmx94_r0,  --uc_int_unit_min=0.06 --co2cap=94 --rps=0 --startup=1 --plan_margin=0.05 
+whichUC_onlyMinUpDwn_int60_cmx94_r0,  --uc_int_unit_min=0.06 --co2cap=94 --rps=0 --min_up_down=1 --plan_margin=0.05 
+whichUC_noMaint_int60_r0_sep,  --uc_int_unit_min=0.06 --co2cost=0 --rps=0 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+whichUC_full_int60_r0_flex,  --uc_int_unit_min=0.06 --co2cost=0 --rps=0 --maint=1 --rsrv=flex --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+whichUC_noRsrv_int60_r0,  --uc_int_unit_min=0.06 --co2cost=0 --rps=0 --maint=1 --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+whichUC_noRamp_int60_r0_sep,  --uc_int_unit_min=0.06 --co2cost=0 --rps=0 --maint=1 --rsrv=separate --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 
+whichUC_noStart_int60_r0_sep,  --uc_int_unit_min=0.06 --co2cost=0 --rps=0 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --min_up_down=1 --plan_margin=0.05 
+whichUC_noMinUpDwn_int60_r0_sep,  --uc_int_unit_min=0.06 --co2cost=0 --rps=0 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --plan_margin=0.05 
+whichUC_simp_noDerate_r0,  --co2cost=0 --rps=0 --plan_margin=0.05 
+whichUC_onlyFlex_r0_flex,  --co2cost=0 --rps=0 --rsrv=flex --plan_margin=0.05 
+whichUC_onlyRamp_r0,  --co2cost=0 --rps=0 --ramp=1 --plan_margin=0.05 
+whichUC_onlyUC_int60_r0,  --uc_int_unit_min=0.06 --co2cost=0 --rps=0 --unit_commit=1 --plan_margin=0.05 
+whichUC_onlyStart_int60_r0,  --uc_int_unit_min=0.06 --co2cost=0 --rps=0 --startup=1 --plan_margin=0.05 
+whichUC_onlyMinUpDwn_int60_r0,  --uc_int_unit_min=0.06 --co2cost=0 --rps=0 --min_up_down=1 --plan_margin=0.05 
+whichUC_onlyMaint_cmx47_r40_derate,  --co2cap=47 --rps=0.4 --maint=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 
+whichUC_onlyFlex_cmx47_r40_derate_flex,  --co2cap=47 --rps=0.4 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 
+whichUC_onlyRamp_cmx47_r40_derate,  --co2cap=47 --rps=0.4 --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 
+whichUC_onlyUC_int60_cmx47_r40_derate,  --uc_int_unit_min=0.06 --co2cap=47 --rps=0.4 --unit_commit=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 
+whichUC_onlyStart_int60_cmx47_r40_derate,  --uc_int_unit_min=0.06 --co2cap=47 --rps=0.4 --startup=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 
+whichUC_onlyMinUpDwn_int60_cmx47_r40_derate,  --uc_int_unit_min=0.06 --co2cap=47 --rps=0.4 --min_up_down=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 
+whichUC_onlyMaint_cmx94_r0_derate,  --co2cap=94 --rps=0 --maint=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 
+whichUC_onlyFlex_cmx94_r0_derate_flex,  --co2cap=94 --rps=0 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 
+whichUC_onlyRamp_cmx94_r0_derate,  --co2cap=94 --rps=0 --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 
+whichUC_onlyUC_int60_cmx94_r0_derate,  --uc_int_unit_min=0.06 --co2cap=94 --rps=0 --unit_commit=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 
+whichUC_onlyStart_int60_cmx94_r0_derate,  --uc_int_unit_min=0.06 --co2cap=94 --rps=0 --startup=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 
+whichUC_onlyMinUpDwn_int60_cmx94_r0_derate,  --uc_int_unit_min=0.06 --co2cap=94 --rps=0 --min_up_down=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 
+whichUC_onlyMaint_r0_derate,  --co2cost=0 --rps=0 --maint=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 
+whichUC_onlyFlex_r0_derate_flex,  --co2cost=0 --rps=0 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 
+whichUC_onlyRamp_r0_derate,  --co2cost=0 --rps=0 --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 
+whichUC_onlyUC_int60_r0_derate,  --uc_int_unit_min=0.06 --co2cost=0 --rps=0 --unit_commit=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 
+whichUC_onlyStart_int60_r0_derate,  --uc_int_unit_min=0.06 --co2cost=0 --rps=0 --startup=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 
+whichUC_onlyMinUpDwn_int60_r0_derate,  --uc_int_unit_min=0.06 --co2cost=0 --rps=0 --min_up_down=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 
+wch_edRsv_ccst90_r20_sep_pm1741_f35ref	  --uc_ignore_unit_min=Inf --co2cost=90 --rps=0.2 --maint=1 --rsrv=separate --plan_margin=0.1741 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_uclp_ccst90_r20_sep_pm1741_f35ref	  --uc_int_unit_min=Inf --co2cost=90 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.1741 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_noMaint_int60_ccst90_r20_sep_pm1741_f35ref	  --uc_int_unit_min=0.06 --co2cost=90 --rps=0.2 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.1741 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_full_int60_ccst90_r20_flex_pm1741_f35ref	  --uc_int_unit_min=0.06 --co2cost=90 --rps=0.2 --maint=1 --rsrv=flex --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.1741 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_noRsrv_int60_ccst90_r20_pm1741_f35ref	  --uc_int_unit_min=0.06 --co2cost=90 --rps=0.2 --maint=1 --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.1741 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_noRamp_int60_ccst90_r20_sep_pm1741_f35ref	  --uc_int_unit_min=0.06 --co2cost=90 --rps=0.2 --maint=1 --rsrv=separate --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.1741 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_noStUp_int60_ccst90_r20_sep_pm1741_f35ref	  --uc_int_unit_min=0.06 --co2cost=90 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --min_up_down=1 --plan_margin=0.1741 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_noUpDn_int60_ccst90_r20_sep_pm1741_f35ref	  --uc_int_unit_min=0.06 --co2cost=90 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --plan_margin=0.1741 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_simp_noDerate_ccst90_r20_pm1741_f35ref	  --co2cost=90 --rps=0.2 --plan_margin=0.1741 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oMaint_ccst90_r20_derate_pm1741_f35ref	  --co2cost=90 --rps=0.2 --maint=1 --derate_to_maint=1 --derate=1 --plan_margin=0.1741 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oFlex_ccst90_r20_derate_flex_pm1741_f35ref	  --co2cost=90 --rps=0.2 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.1741 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oRamp_ccst90_r20_derate_pm1741_f35ref	  --co2cost=90 --rps=0.2 --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.1741 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oUC_int60_ccst90_r20_derate_pm1741_f35ref	  --uc_int_unit_min=0.06 --co2cost=90 --rps=0.2 --unit_commit=1 --derate_to_maint=1 --derate=1 --plan_margin=0.1741 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oStUp_int60_ccst90_r20_derate_pm1741_f35ref	  --uc_int_unit_min=0.06 --co2cost=90 --rps=0.2 --startup=1 --derate_to_maint=1 --derate=1 --plan_margin=0.1741 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oUpDn_int60_ccst90_r20_derate_pm1741_f35ref	  --uc_int_unit_min=0.06 --co2cost=90 --rps=0.2 --min_up_down=1 --derate_to_maint=1 --derate=1 --plan_margin=0.1741 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_edRsv_ccst90_r20_sep_pm1540_f35loC	  --uc_ignore_unit_min=Inf --co2cost=90 --rps=0.2 --maint=1 --rsrv=separate --plan_margin=0.154 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_uclp_ccst90_r20_sep_pm1540_f35loC	  --uc_int_unit_min=Inf --co2cost=90 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.154 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_noMaint_int60_ccst90_r20_sep_pm1540_f35loC	  --uc_int_unit_min=0.06 --co2cost=90 --rps=0.2 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.154 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_full_int60_ccst90_r20_flex_pm1540_f35loC	  --uc_int_unit_min=0.06 --co2cost=90 --rps=0.2 --maint=1 --rsrv=flex --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.154 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_noRsrv_int60_ccst90_r20_pm1540_f35loC	  --uc_int_unit_min=0.06 --co2cost=90 --rps=0.2 --maint=1 --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.154 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_noRamp_int60_ccst90_r20_sep_pm1540_f35loC	  --uc_int_unit_min=0.06 --co2cost=90 --rps=0.2 --maint=1 --rsrv=separate --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.154 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_noStUp_int60_ccst90_r20_sep_pm1540_f35loC	  --uc_int_unit_min=0.06 --co2cost=90 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --min_up_down=1 --plan_margin=0.154 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_noUpDn_int60_ccst90_r20_sep_pm1540_f35loC	  --uc_int_unit_min=0.06 --co2cost=90 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --plan_margin=0.154 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_simp_noDerate_ccst90_r20_pm1540_f35loC	  --co2cost=90 --rps=0.2 --plan_margin=0.154 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_oMaint_ccst90_r20_derate_pm1540_f35loC	  --co2cost=90 --rps=0.2 --maint=1 --derate_to_maint=1 --derate=1 --plan_margin=0.154 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_oFlex_ccst90_r20_derate_flex_pm1540_f35loC	  --co2cost=90 --rps=0.2 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.154 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_oRamp_ccst90_r20_derate_pm1540_f35loC	  --co2cost=90 --rps=0.2 --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.154 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_oUC_int60_ccst90_r20_derate_pm1540_f35loC	  --uc_int_unit_min=0.06 --co2cost=90 --rps=0.2 --unit_commit=1 --derate_to_maint=1 --derate=1 --plan_margin=0.154 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_oStUp_int60_ccst90_r20_derate_pm1540_f35loC	  --uc_int_unit_min=0.06 --co2cost=90 --rps=0.2 --startup=1 --derate_to_maint=1 --derate=1 --plan_margin=0.154 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_oUpDn_int60_ccst90_r20_derate_pm1540_f35loC	  --uc_int_unit_min=0.06 --co2cost=90 --rps=0.2 --min_up_down=1 --derate_to_maint=1 --derate=1 --plan_margin=0.154 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_edRsv_cmx94_r0_sep_pm1240_f35rf_0W	  --uc_ignore_unit_min=Inf --co2cap=94 --rps=0 --maint=1 --rsrv=separate --plan_margin=0.124 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_uclp_cmx94_r0_sep_pm1240_f35rf_0W	  --uc_int_unit_min=Inf --co2cap=94 --rps=0 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.124 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_noMaint_int60_cmx94_r0_sep_pm1240_f35rf_0W	  --uc_int_unit_min=0.06 --co2cap=94 --rps=0 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.124 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_full_int60_cmx94_r0_flex_pm1240_f35rf_0W	  --uc_int_unit_min=0.06 --co2cap=94 --rps=0 --maint=1 --rsrv=flex --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.124 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_noRsrv_int60_cmx94_r0_pm1240_f35rf_0W	  --uc_int_unit_min=0.06 --co2cap=94 --rps=0 --maint=1 --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.124 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_noRamp_int60_cmx94_r0_sep_pm1240_f35rf_0W	  --uc_int_unit_min=0.06 --co2cap=94 --rps=0 --maint=1 --rsrv=separate --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.124 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_noStUp_int60_cmx94_r0_sep_pm1240_f35rf_0W	  --uc_int_unit_min=0.06 --co2cap=94 --rps=0 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --min_up_down=1 --plan_margin=0.124 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_noUpDn_int60_cmx94_r0_sep_pm1240_f35rf_0W	  --uc_int_unit_min=0.06 --co2cap=94 --rps=0 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --plan_margin=0.124 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_simp_noDerate_cmx94_r0_pm1240_f35rf_0W	  --co2cap=94 --rps=0 --plan_margin=0.124 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oMaint_cmx94_r0_derate_pm1240_f35rf_0W	  --co2cap=94 --rps=0 --maint=1 --derate_to_maint=1 --derate=1 --plan_margin=0.124 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oFlex_cmx94_r0_derate_flex_pm1240_f35rf_0W	  --co2cap=94 --rps=0 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.124 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oRamp_cmx94_r0_derate_pm1240_f35rf_0W	  --co2cap=94 --rps=0 --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.124 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oUC_int60_cmx94_r0_derate_pm1240_f35rf_0W	  --uc_int_unit_min=0.06 --co2cap=94 --rps=0 --unit_commit=1 --derate_to_maint=1 --derate=1 --plan_margin=0.124 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oStUp_int60_cmx94_r0_derate_pm1240_f35rf_0W	  --uc_int_unit_min=0.06 --co2cap=94 --rps=0 --startup=1 --derate_to_maint=1 --derate=1 --plan_margin=0.124 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oUpDn_int60_cmx94_r0_derate_pm1240_f35rf_0W	  --uc_int_unit_min=0.06 --co2cap=94 --rps=0 --min_up_down=1 --derate_to_maint=1 --derate=1 --plan_margin=0.124 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_edRsv_cmx94_r40_sep_pm2242_f35ref	  --uc_ignore_unit_min=Inf --co2cap=94 --rps=0.4 --maint=1 --rsrv=separate --plan_margin=0.2242 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_uclp_cmx94_r40_sep_pm2242_f35ref	  --uc_int_unit_min=Inf --co2cap=94 --rps=0.4 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.2242 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_noMaint_int60_cmx94_r40_sep_pm2242_f35ref	  --uc_int_unit_min=0.06 --co2cap=94 --rps=0.4 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.2242 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_full_int60_cmx94_r40_flex_pm2242_f35ref	  --uc_int_unit_min=0.06 --co2cap=94 --rps=0.4 --maint=1 --rsrv=flex --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.2242 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_noRsrv_int60_cmx94_r40_pm2242_f35ref	  --uc_int_unit_min=0.06 --co2cap=94 --rps=0.4 --maint=1 --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.2242 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_noRamp_int60_cmx94_r40_sep_pm2242_f35ref	  --uc_int_unit_min=0.06 --co2cap=94 --rps=0.4 --maint=1 --rsrv=separate --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.2242 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_noStUp_int60_cmx94_r40_sep_pm2242_f35ref	  --uc_int_unit_min=0.06 --co2cap=94 --rps=0.4 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --min_up_down=1 --plan_margin=0.2242 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_noUpDn_int60_cmx94_r40_sep_pm2242_f35ref	  --uc_int_unit_min=0.06 --co2cap=94 --rps=0.4 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --plan_margin=0.2242 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_simp_noDerate_cmx94_r40_pm2242_f35ref	  --co2cap=94 --rps=0.4 --plan_margin=0.2242 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oMaint_cmx94_r40_derate_pm2242_f35ref	  --co2cap=94 --rps=0.4 --maint=1 --derate_to_maint=1 --derate=1 --plan_margin=0.2242 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oFlex_cmx94_r40_derate_flex_pm2242_f35ref	  --co2cap=94 --rps=0.4 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.2242 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oRamp_cmx94_r40_derate_pm2242_f35ref	  --co2cap=94 --rps=0.4 --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.2242 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oUC_int60_cmx94_r40_derate_pm2242_f35ref	  --uc_int_unit_min=0.06 --co2cap=94 --rps=0.4 --unit_commit=1 --derate_to_maint=1 --derate=1 --plan_margin=0.2242 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oStUp_int60_cmx94_r40_derate_pm2242_f35ref	  --uc_int_unit_min=0.06 --co2cap=94 --rps=0.4 --startup=1 --derate_to_maint=1 --derate=1 --plan_margin=0.2242 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oUpDn_int60_cmx94_r40_derate_pm2242_f35ref	  --uc_int_unit_min=0.06 --co2cap=94 --rps=0.4 --min_up_down=1 --derate_to_maint=1 --derate=1 --plan_margin=0.2242 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_edRsv_cmx47_r0_sep_pm1363_f35rf_0W	  --uc_ignore_unit_min=Inf --co2cap=47 --rps=0 --maint=1 --rsrv=separate --plan_margin=0.1363 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_uclp_cmx47_r0_sep_pm1363_f35rf_0W	  --uc_int_unit_min=Inf --co2cap=47 --rps=0 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.1363 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_noMaint_int60_cmx47_r0_sep_pm1363_f35rf_0W	  --uc_int_unit_min=0.06 --co2cap=47 --rps=0 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.1363 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_full_int60_cmx47_r0_flex_pm1363_f35rf_0W	  --uc_int_unit_min=0.06 --co2cap=47 --rps=0 --maint=1 --rsrv=flex --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.1363 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_noRsrv_int60_cmx47_r0_pm1363_f35rf_0W	  --uc_int_unit_min=0.06 --co2cap=47 --rps=0 --maint=1 --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.1363 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_noRamp_int60_cmx47_r0_sep_pm1363_f35rf_0W	  --uc_int_unit_min=0.06 --co2cap=47 --rps=0 --maint=1 --rsrv=separate --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.1363 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_noStUp_int60_cmx47_r0_sep_pm1363_f35rf_0W	  --uc_int_unit_min=0.06 --co2cap=47 --rps=0 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --min_up_down=1 --plan_margin=0.1363 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_noUpDn_int60_cmx47_r0_sep_pm1363_f35rf_0W	  --uc_int_unit_min=0.06 --co2cap=47 --rps=0 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --plan_margin=0.1363 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_simp_noDerate_cmx47_r0_pm1363_f35rf_0W	  --co2cap=47 --rps=0 --plan_margin=0.1363 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oMaint_cmx47_r0_derate_pm1363_f35rf_0W	  --co2cap=47 --rps=0 --maint=1 --derate_to_maint=1 --derate=1 --plan_margin=0.1363 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oFlex_cmx47_r0_derate_flex_pm1363_f35rf_0W	  --co2cap=47 --rps=0 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.1363 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oRamp_cmx47_r0_derate_pm1363_f35rf_0W	  --co2cap=47 --rps=0 --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.1363 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oUC_int60_cmx47_r0_derate_pm1363_f35rf_0W	  --uc_int_unit_min=0.06 --co2cap=47 --rps=0 --unit_commit=1 --derate_to_maint=1 --derate=1 --plan_margin=0.1363 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oStUp_int60_cmx47_r0_derate_pm1363_f35rf_0W	  --uc_int_unit_min=0.06 --co2cap=47 --rps=0 --startup=1 --derate_to_maint=1 --derate=1 --plan_margin=0.1363 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oUpDn_int60_cmx47_r0_derate_pm1363_f35rf_0W	  --uc_int_unit_min=0.06 --co2cap=47 --rps=0 --min_up_down=1 --derate_to_maint=1 --derate=1 --plan_margin=0.1363 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_edRsv_cmx47_r20_sep_pm1740_f35ref	  --uc_ignore_unit_min=Inf --co2cap=47 --rps=0.2 --maint=1 --rsrv=separate --plan_margin=0.174 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_uclp_cmx47_r20_sep_pm1740_f35ref	  --uc_int_unit_min=Inf --co2cap=47 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.174 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_noMaint_int60_cmx47_r20_sep_pm1740_f35ref	  --uc_int_unit_min=0.06 --co2cap=47 --rps=0.2 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.174 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_full_int60_cmx47_r20_flex_pm1740_f35ref	  --uc_int_unit_min=0.06 --co2cap=47 --rps=0.2 --maint=1 --rsrv=flex --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.174 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_noRsrv_int60_cmx47_r20_pm1740_f35ref	  --uc_int_unit_min=0.06 --co2cap=47 --rps=0.2 --maint=1 --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.174 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_noRamp_int60_cmx47_r20_sep_pm1740_f35ref	  --uc_int_unit_min=0.06 --co2cap=47 --rps=0.2 --maint=1 --rsrv=separate --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.174 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_noStUp_int60_cmx47_r20_sep_pm1740_f35ref	  --uc_int_unit_min=0.06 --co2cap=47 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --min_up_down=1 --plan_margin=0.174 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_noUpDn_int60_cmx47_r20_sep_pm1740_f35ref	  --uc_int_unit_min=0.06 --co2cap=47 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --plan_margin=0.174 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_simp_noDerate_cmx47_r20_pm1740_f35ref	  --co2cap=47 --rps=0.2 --plan_margin=0.174 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oMaint_cmx47_r20_derate_pm1740_f35ref	  --co2cap=47 --rps=0.2 --maint=1 --derate_to_maint=1 --derate=1 --plan_margin=0.174 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oFlex_cmx47_r20_derate_flex_pm1740_f35ref	  --co2cap=47 --rps=0.2 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.174 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oRamp_cmx47_r20_derate_pm1740_f35ref	  --co2cap=47 --rps=0.2 --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.174 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oUC_int60_cmx47_r20_derate_pm1740_f35ref	  --uc_int_unit_min=0.06 --co2cap=47 --rps=0.2 --unit_commit=1 --derate_to_maint=1 --derate=1 --plan_margin=0.174 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oStUp_int60_cmx47_r20_derate_pm1740_f35ref	  --uc_int_unit_min=0.06 --co2cap=47 --rps=0.2 --startup=1 --derate_to_maint=1 --derate=1 --plan_margin=0.174 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oUpDn_int60_cmx47_r20_derate_pm1740_f35ref	  --uc_int_unit_min=0.06 --co2cap=47 --rps=0.2 --min_up_down=1 --derate_to_maint=1 --derate=1 --plan_margin=0.174 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_edRsv_cmx47_r40_sep_pm2823_f35ref	  --uc_ignore_unit_min=Inf --co2cap=47 --rps=0.4 --maint=1 --rsrv=separate --plan_margin=0.2823 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_uclp_cmx47_r40_sep_pm2823_f35ref	  --uc_int_unit_min=Inf --co2cap=47 --rps=0.4 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.2823 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_noMaint_int60_cmx47_r40_sep_pm2823_f35ref	  --uc_int_unit_min=0.06 --co2cap=47 --rps=0.4 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.2823 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_full_int60_cmx47_r40_flex_pm2823_f35ref	  --uc_int_unit_min=0.06 --co2cap=47 --rps=0.4 --maint=1 --rsrv=flex --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.2823 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_noRsrv_int60_cmx47_r40_pm2823_f35ref	  --uc_int_unit_min=0.06 --co2cap=47 --rps=0.4 --maint=1 --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.2823 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_noRamp_int60_cmx47_r40_sep_pm2823_f35ref	  --uc_int_unit_min=0.06 --co2cap=47 --rps=0.4 --maint=1 --rsrv=separate --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.2823 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_noStUp_int60_cmx47_r40_sep_pm2823_f35ref	  --uc_int_unit_min=0.06 --co2cap=47 --rps=0.4 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --min_up_down=1 --plan_margin=0.2823 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_noUpDn_int60_cmx47_r40_sep_pm2823_f35ref	  --uc_int_unit_min=0.06 --co2cap=47 --rps=0.4 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --plan_margin=0.2823 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_simp_noDerate_cmx47_r40_pm2823_f35ref	  --co2cap=47 --rps=0.4 --plan_margin=0.2823 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oMaint_cmx47_r40_derate_pm2823_f35ref	  --co2cap=47 --rps=0.4 --maint=1 --derate_to_maint=1 --derate=1 --plan_margin=0.2823 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oFlex_cmx47_r40_derate_flex_pm2823_f35ref	  --co2cap=47 --rps=0.4 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.2823 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oRamp_cmx47_r40_derate_pm2823_f35ref	  --co2cap=47 --rps=0.4 --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.2823 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oUC_int60_cmx47_r40_derate_pm2823_f35ref	  --uc_int_unit_min=0.06 --co2cap=47 --rps=0.4 --unit_commit=1 --derate_to_maint=1 --derate=1 --plan_margin=0.2823 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oStUp_int60_cmx47_r40_derate_pm2823_f35ref	  --uc_int_unit_min=0.06 --co2cap=47 --rps=0.4 --startup=1 --derate_to_maint=1 --derate=1 --plan_margin=0.2823 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oUpDn_int60_cmx47_r40_derate_pm2823_f35ref	  --uc_int_unit_min=0.06 --co2cap=47 --rps=0.4 --min_up_down=1 --derate_to_maint=1 --derate=1 --plan_margin=0.2823 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oSep_ccst90_r20_derate_sep_pm1741_f35ref	  --co2cost=90 --rps=0.2 --rsrv=separate --derate_to_maint=1 --derate=1 --plan_margin=0.1741 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FxUc_ccst90_r20_derate_flex_pm1363_f35ref	  --co2cost=90 --rps=0.2 --rsrv=flex --unit_commit=1 --derate_to_maint=1 --derate=1 --plan_margin=0.1363 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_MtFxUc_ccst90_r20_flex_pm1363_f35ref	  --co2cost=90 --rps=0.2 --maint=1 --rsrv=flex --unit_commit=1 --plan_margin=0.1363 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_MtFxUcRp_ccst90_r20_flex_pm1363_f35ref	  --co2cost=90 --rps=0.2 --maint=1 --rsrv=flex --ramp=1 --unit_commit=1 --plan_margin=0.1363 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_MtFxUcRpL_ccst90_r20_flex_pm1363_lp_f35ref	  --co2cost=90 --rps=0.2 --maint=1 --rsrv=flex --ramp=1 --unit_commit=1 --plan_margin=0.1363 --ignore_integer=1 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oM_nDrt_ccst90_r20_pm1741_f35ref	  --co2cost=90 --rps=0.2 --maint=1 --plan_margin=0.1741 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FlxRmp_ccst90_r20_derate_flex_pm1741_f35ref	  --co2cost=90 --rps=0.2 --rsrv=flex --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.1741 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FxRpMt_ccst90_r20_derate_flex_pm1741_f35ref	  --co2cost=90 --rps=0.2 --maint=1 --rsrv=flex --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.1741 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FxRpMt_nDrt_ccst90_r20_flex_pm1741_f35ref	  --co2cost=90 --rps=0.2 --maint=1 --rsrv=flex --ramp=1 --plan_margin=0.1741 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FxRpMt_LnD_ccst90_r20_flex_pm1741_lp_f35ref	  --co2cost=90 --rps=0.2 --maint=1 --rsrv=flex --ramp=1 --plan_margin=0.1741 --ignore_integer=1 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_RpMt_ccst90_r20_derate_pm1741_f35ref	  --co2cost=90 --rps=0.2 --maint=1 --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.1741 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_RpMt_nDrt_ccst90_r20_pm1741_f35ref	  --co2cost=90 --rps=0.2 --maint=1 --ramp=1 --plan_margin=0.1741 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_SepRmp_ccst90_r20_derate_sep_pm1741_f35ref	  --co2cost=90 --rps=0.2 --rsrv=separate --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.1741 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_SpRpMt_ccst90_r20_derate_sep_pm1741_f35ref	  --co2cost=90 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.1741 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_SpRpMt_nDrt_ccst90_r20_sep_pm1741_f35ref	  --co2cost=90 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --plan_margin=0.1741 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_SxRpMt_LnD_ccst90_r20_sep_pm1741_lp_f35ref	  --co2cost=90 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --plan_margin=0.1741 --ignore_integer=1 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_lp_int60_ccst90_r20_sep_pm1741_lp_f35ref	  --uc_int_unit_min=0.06 --co2cost=90 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.1741 --ignore_integer=1 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_lpNpm_int60_ccst90_r20_sep_lp_f35ref	  --uc_int_unit_min=0.06 --co2cost=90 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 --ignore_integer=1 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FxUcNpm_ccst90_r20_derate_flex_f35ref	  --co2cost=90 --rps=0.2 --rsrv=flex --unit_commit=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_MtFxUcNpm_ccst90_r20_flex_f35ref	  --co2cost=90 --rps=0.2 --maint=1 --rsrv=flex --unit_commit=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_MtFxUcRpNpm_ccst90_r20_flex_f35ref	  --co2cost=90 --rps=0.2 --maint=1 --rsrv=flex --ramp=1 --unit_commit=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_MtFxUcRpLNpm_ccst90_r20_flex_lp_f35ref	  --co2cost=90 --rps=0.2 --maint=1 --rsrv=flex --ramp=1 --unit_commit=1 --plan_margin=0.05 --ignore_integer=1 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_simpNpm_ccst90_r20_derate_f35ref	  --co2cost=90 --rps=0.2 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_simpNpm_nDrt_ccst90_r20_f35ref	  --co2cost=90 --rps=0.2 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oMaintNpm_ccst90_r20_derate_f35ref	  --co2cost=90 --rps=0.2 --maint=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oFlexNpm_ccst90_r20_derate_flex_f35ref	  --co2cost=90 --rps=0.2 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oRampNpm_ccst90_r20_derate_f35ref	  --co2cost=90 --rps=0.2 --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oUC_Npm_int60_ccst90_r20_derate_f35ref	  --uc_int_unit_min=0.06 --co2cost=90 --rps=0.2 --unit_commit=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FlxRmpNpm_ccst90_r20_derate_flex_f35ref	  --co2cost=90 --rps=0.2 --rsrv=flex --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FxRpMt_nDrtNpm_ccst90_r20_flex_f35ref	  --co2cost=90 --rps=0.2 --maint=1 --rsrv=flex --ramp=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FxRpMt_LnD_Npm_ccst90_r20_flex_lp_f35ref	  --co2cost=90 --rps=0.2 --maint=1 --rsrv=flex --ramp=1 --plan_margin=0.05 --ignore_integer=1 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_SepRmpNpm_ccst90_r20_derate_sep_f35ref	  --co2cost=90 --rps=0.2 --rsrv=separate --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_SpRpMt_nDrtNpm_ccst90_r20_sep_f35ref	  --co2cost=90 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_SxRpMt_LnD_Npm_ccst90_r20_sep_lp_f35ref	  --co2cost=90 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --plan_margin=0.05 --ignore_integer=1 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oSep_ccst90_r20_derate_sep_pm1540_f35loC	  --co2cost=90 --rps=0.2 --rsrv=separate --derate_to_maint=1 --derate=1 --plan_margin=0.154 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_FxUc_ccst90_r20_derate_flex_pm1540_f35loC	  --co2cost=90 --rps=0.2 --rsrv=flex --unit_commit=1 --derate_to_maint=1 --derate=1 --plan_margin=0.154 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_MtFxUc_ccst90_r20_flex_pm1540_f35loC	  --co2cost=90 --rps=0.2 --maint=1 --rsrv=flex --unit_commit=1 --plan_margin=0.154 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_MtFxUcRp_ccst90_r20_flex_pm1540_f35loC	  --co2cost=90 --rps=0.2 --maint=1 --rsrv=flex --ramp=1 --unit_commit=1 --plan_margin=0.154 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_MtFxUcRpL_ccst90_r20_flex_pm1540_lp_f35loC	  --co2cost=90 --rps=0.2 --maint=1 --rsrv=flex --ramp=1 --unit_commit=1 --plan_margin=0.154 --ignore_integer=1 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_oM_nDrt_ccst90_r20_pm1540_f35loC	  --co2cost=90 --rps=0.2 --maint=1 --plan_margin=0.154 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_FlxRmp_ccst90_r20_derate_flex_pm1540_f35loC	  --co2cost=90 --rps=0.2 --rsrv=flex --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.154 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_FxRpMt_ccst90_r20_derate_flex_pm1540_f35loC	  --co2cost=90 --rps=0.2 --maint=1 --rsrv=flex --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.154 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_FxRpMt_nDrt_ccst90_r20_flex_pm1540_f35loC	  --co2cost=90 --rps=0.2 --maint=1 --rsrv=flex --ramp=1 --plan_margin=0.154 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_FxRpMt_LnD_ccst90_r20_flex_pm1540_lp_f35loC	  --co2cost=90 --rps=0.2 --maint=1 --rsrv=flex --ramp=1 --plan_margin=0.154 --ignore_integer=1 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_RpMt_ccst90_r20_derate_pm1540_f35loC	  --co2cost=90 --rps=0.2 --maint=1 --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.154 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_RpMt_nDrt_ccst90_r20_pm1540_f35loC	  --co2cost=90 --rps=0.2 --maint=1 --ramp=1 --plan_margin=0.154 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_SepRmp_ccst90_r20_derate_sep_pm1540_f35loC	  --co2cost=90 --rps=0.2 --rsrv=separate --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.154 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_SpRpMt_ccst90_r20_derate_sep_pm1540_f35loC	  --co2cost=90 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.154 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_SpRpMt_nDrt_ccst90_r20_sep_pm1540_f35loC	  --co2cost=90 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --plan_margin=0.154 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_SxRpMt_LnD_ccst90_r20_sep_pm1540_lp_f35loC	  --co2cost=90 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --plan_margin=0.154 --ignore_integer=1 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_lp_int60_ccst90_r20_sep_pm1540_lp_f35loC	  --uc_int_unit_min=0.06 --co2cost=90 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.154 --ignore_integer=1 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_lpNpm_int60_ccst90_r20_sep_lp_f35loC	  --uc_int_unit_min=0.06 --co2cost=90 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 --ignore_integer=1 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_FxUcNpm_ccst90_r20_derate_flex_f35loC	  --co2cost=90 --rps=0.2 --rsrv=flex --unit_commit=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_MtFxUcNpm_ccst90_r20_flex_f35loC	  --co2cost=90 --rps=0.2 --maint=1 --rsrv=flex --unit_commit=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_MtFxUcRpNpm_ccst90_r20_flex_f35loC	  --co2cost=90 --rps=0.2 --maint=1 --rsrv=flex --ramp=1 --unit_commit=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_MtFxUcRpLNpm_ccst90_r20_flex_lp_f35loC	  --co2cost=90 --rps=0.2 --maint=1 --rsrv=flex --ramp=1 --unit_commit=1 --plan_margin=0.05 --ignore_integer=1 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_simpNpm_ccst90_r20_derate_f35loC	  --co2cost=90 --rps=0.2 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_simpNpm_nDrt_ccst90_r20_f35loC	  --co2cost=90 --rps=0.2 --plan_margin=0.05 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_oMaintNpm_ccst90_r20_derate_f35loC	  --co2cost=90 --rps=0.2 --maint=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_oFlexNpm_ccst90_r20_derate_flex_f35loC	  --co2cost=90 --rps=0.2 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_oRampNpm_ccst90_r20_derate_f35loC	  --co2cost=90 --rps=0.2 --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_oUC_Npm_int60_ccst90_r20_derate_f35loC	  --uc_int_unit_min=0.06 --co2cost=90 --rps=0.2 --unit_commit=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_FlxRmpNpm_ccst90_r20_derate_flex_f35loC	  --co2cost=90 --rps=0.2 --rsrv=flex --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_FxRpMt_nDrtNpm_ccst90_r20_flex_f35loC	  --co2cost=90 --rps=0.2 --maint=1 --rsrv=flex --ramp=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_FxRpMt_LnD_Npm_ccst90_r20_flex_lp_f35loC	  --co2cost=90 --rps=0.2 --maint=1 --rsrv=flex --ramp=1 --plan_margin=0.05 --ignore_integer=1 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_SepRmpNpm_ccst90_r20_derate_sep_f35loC	  --co2cost=90 --rps=0.2 --rsrv=separate --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_SpRpMt_nDrtNpm_ccst90_r20_sep_f35loC	  --co2cost=90 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_SxRpMt_LnD_Npm_ccst90_r20_sep_lp_f35loC	  --co2cost=90 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --plan_margin=0.05 --ignore_integer=1 --fuel=fuel2035_aeo12_loCoalCost_usa.inc 
+wch_oSep_cmx94_r0_derate_sep_pm1240_f35rf_0W	  --co2cap=94 --rps=0 --rsrv=separate --derate_to_maint=1 --derate=1 --plan_margin=0.124 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FxUc_cmx94_r0_derate_flex_pm1240_f35rf_0W	  --co2cap=94 --rps=0 --rsrv=flex --unit_commit=1 --derate_to_maint=1 --derate=1 --plan_margin=0.124 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_MtFxUc_cmx94_r0_flex_pm1240_f35rf_0W	  --co2cap=94 --rps=0 --maint=1 --rsrv=flex --unit_commit=1 --plan_margin=0.124 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_MtFxUcRp_cmx94_r0_flex_pm1240_f35rf_0W	  --co2cap=94 --rps=0 --maint=1 --rsrv=flex --ramp=1 --unit_commit=1 --plan_margin=0.124 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_MtFxUcRpL_cmx94_r0_flex_pm1240_lp_f35rf_0W	  --co2cap=94 --rps=0 --maint=1 --rsrv=flex --ramp=1 --unit_commit=1 --plan_margin=0.124 --ignore_integer=1 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oM_nDrt_cmx94_r0_pm1240_f35rf_0W	  --co2cap=94 --rps=0 --maint=1 --plan_margin=0.124 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FlxRmp_cmx94_r0_derate_flex_pm1240_f35rf_0W	  --co2cap=94 --rps=0 --rsrv=flex --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.124 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FxRpMt_cmx94_r0_derate_flex_pm1240_f35rf_0W	  --co2cap=94 --rps=0 --maint=1 --rsrv=flex --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.124 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FxRpMt_nDrt_cmx94_r0_flex_pm1240_f35rf_0W	  --co2cap=94 --rps=0 --maint=1 --rsrv=flex --ramp=1 --plan_margin=0.124 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FxRpMt_LnD_cmx94_r0_flex_pm1240_lp_f35rf_0W	  --co2cap=94 --rps=0 --maint=1 --rsrv=flex --ramp=1 --plan_margin=0.124 --ignore_integer=1 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_RpMt_cmx94_r0_derate_pm1240_f35rf_0W	  --co2cap=94 --rps=0 --maint=1 --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.124 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_RpMt_nDrt_cmx94_r0_pm1240_f35rf_0W	  --co2cap=94 --rps=0 --maint=1 --ramp=1 --plan_margin=0.124 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_SepRmp_cmx94_r0_derate_sep_pm1240_f35rf_0W	  --co2cap=94 --rps=0 --rsrv=separate --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.124 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_SpRpMt_cmx94_r0_derate_sep_pm1240_f35rf_0W	  --co2cap=94 --rps=0 --maint=1 --rsrv=separate --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.124 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_SpRpMt_nDrt_cmx94_r0_sep_pm1240_f35rf_0W	  --co2cap=94 --rps=0 --maint=1 --rsrv=separate --ramp=1 --plan_margin=0.124 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_SxRpMt_LnD_cmx94_r0_sep_pm1240_lp_f35rf_0W	  --co2cap=94 --rps=0 --maint=1 --rsrv=separate --ramp=1 --plan_margin=0.124 --ignore_integer=1 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_lp_int60_cmx94_r0_sep_pm1240_lp_f35rf_0W	  --uc_int_unit_min=0.06 --co2cap=94 --rps=0 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.124 --ignore_integer=1 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_lpNpm_int60_cmx94_r0_sep_lp_f35rf_0W	  --uc_int_unit_min=0.06 --co2cap=94 --rps=0 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 --ignore_integer=1 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FxUcNpm_cmx94_r0_derate_flex_f35rf_0W	  --co2cap=94 --rps=0 --rsrv=flex --unit_commit=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_MtFxUcNpm_cmx94_r0_flex_f35rf_0W	  --co2cap=94 --rps=0 --maint=1 --rsrv=flex --unit_commit=1 --plan_margin=0.05 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_MtFxUcRpNpm_cmx94_r0_flex_f35rf_0W	  --co2cap=94 --rps=0 --maint=1 --rsrv=flex --ramp=1 --unit_commit=1 --plan_margin=0.05 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_MtFxUcRpLNpm_cmx94_r0_flex_lp_f35rf_0W	  --co2cap=94 --rps=0 --maint=1 --rsrv=flex --ramp=1 --unit_commit=1 --plan_margin=0.05 --ignore_integer=1 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_simpNpm_cmx94_r0_derate_f35rf_0W	  --co2cap=94 --rps=0 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_simpNpm_nDrt_cmx94_r0_f35rf_0W	  --co2cap=94 --rps=0 --plan_margin=0.05 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oMaintNpm_cmx94_r0_derate_f35rf_0W	  --co2cap=94 --rps=0 --maint=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oFlexNpm_cmx94_r0_derate_flex_f35rf_0W	  --co2cap=94 --rps=0 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oRampNpm_cmx94_r0_derate_f35rf_0W	  --co2cap=94 --rps=0 --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oUC_Npm_int60_cmx94_r0_derate_f35rf_0W	  --uc_int_unit_min=0.06 --co2cap=94 --rps=0 --unit_commit=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FlxRmpNpm_cmx94_r0_derate_flex_f35rf_0W	  --co2cap=94 --rps=0 --rsrv=flex --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FxRpMt_nDrtNpm_cmx94_r0_flex_f35rf_0W	  --co2cap=94 --rps=0 --maint=1 --rsrv=flex --ramp=1 --plan_margin=0.05 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FxRpMt_LnD_Npm_cmx94_r0_flex_lp_f35rf_0W	  --co2cap=94 --rps=0 --maint=1 --rsrv=flex --ramp=1 --plan_margin=0.05 --ignore_integer=1 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_SepRmpNpm_cmx94_r0_derate_sep_f35rf_0W	  --co2cap=94 --rps=0 --rsrv=separate --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_SpRpMt_nDrtNpm_cmx94_r0_sep_f35rf_0W	  --co2cap=94 --rps=0 --maint=1 --rsrv=separate --ramp=1 --plan_margin=0.05 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_SxRpMt_LnD_Npm_cmx94_r0_sep_lp_f35rf_0W	  --co2cap=94 --rps=0 --maint=1 --rsrv=separate --ramp=1 --plan_margin=0.05 --ignore_integer=1 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oSep_cmx94_r40_derate_sep_pm2242_f35ref	  --co2cap=94 --rps=0.4 --rsrv=separate --derate_to_maint=1 --derate=1 --plan_margin=0.2242 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FxUc_cmx94_r40_derate_flex_pm2242_f35ref	  --co2cap=94 --rps=0.4 --rsrv=flex --unit_commit=1 --derate_to_maint=1 --derate=1 --plan_margin=0.2242 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_MtFxUc_cmx94_r40_flex_pm2242_f35ref	  --co2cap=94 --rps=0.4 --maint=1 --rsrv=flex --unit_commit=1 --plan_margin=0.2242 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_MtFxUcRp_cmx94_r40_flex_pm2242_f35ref	  --co2cap=94 --rps=0.4 --maint=1 --rsrv=flex --ramp=1 --unit_commit=1 --plan_margin=0.2242 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_MtFxUcRpL_cmx94_r40_flex_pm2242_lp_f35ref	  --co2cap=94 --rps=0.4 --maint=1 --rsrv=flex --ramp=1 --unit_commit=1 --plan_margin=0.2242 --ignore_integer=1 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oM_nDrt_cmx94_r40_pm2242_f35ref	  --co2cap=94 --rps=0.4 --maint=1 --plan_margin=0.2242 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FlxRmp_cmx94_r40_derate_flex_pm2242_f35ref	  --co2cap=94 --rps=0.4 --rsrv=flex --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.2242 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FxRpMt_cmx94_r40_derate_flex_pm2242_f35ref	  --co2cap=94 --rps=0.4 --maint=1 --rsrv=flex --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.2242 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FxRpMt_nDrt_cmx94_r40_flex_pm2242_f35ref	  --co2cap=94 --rps=0.4 --maint=1 --rsrv=flex --ramp=1 --plan_margin=0.2242 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FxRpMt_LnD_cmx94_r40_flex_pm2242_lp_f35ref	  --co2cap=94 --rps=0.4 --maint=1 --rsrv=flex --ramp=1 --plan_margin=0.2242 --ignore_integer=1 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_RpMt_cmx94_r40_derate_pm2242_f35ref	  --co2cap=94 --rps=0.4 --maint=1 --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.2242 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_RpMt_nDrt_cmx94_r40_pm2242_f35ref	  --co2cap=94 --rps=0.4 --maint=1 --ramp=1 --plan_margin=0.2242 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_SepRmp_cmx94_r40_derate_sep_pm2242_f35ref	  --co2cap=94 --rps=0.4 --rsrv=separate --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.2242 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_SpRpMt_cmx94_r40_derate_sep_pm2242_f35ref	  --co2cap=94 --rps=0.4 --maint=1 --rsrv=separate --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.2242 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_SpRpMt_nDrt_cmx94_r40_sep_pm2242_f35ref	  --co2cap=94 --rps=0.4 --maint=1 --rsrv=separate --ramp=1 --plan_margin=0.2242 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_SxRpMt_LnD_cmx94_r40_sep_pm2242_lp_f35ref	  --co2cap=94 --rps=0.4 --maint=1 --rsrv=separate --ramp=1 --plan_margin=0.2242 --ignore_integer=1 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_lp_int60_cmx94_r40_sep_pm2242_lp_f35ref	  --uc_int_unit_min=0.06 --co2cap=94 --rps=0.4 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.2242 --ignore_integer=1 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_lpNpm_int60_cmx94_r40_sep_lp_f35ref	  --uc_int_unit_min=0.06 --co2cap=94 --rps=0.4 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 --ignore_integer=1 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FxUcNpm_cmx94_r40_derate_flex_f35ref	  --co2cap=94 --rps=0.4 --rsrv=flex --unit_commit=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_MtFxUcNpm_cmx94_r40_flex_f35ref	  --co2cap=94 --rps=0.4 --maint=1 --rsrv=flex --unit_commit=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_MtFxUcRpNpm_cmx94_r40_flex_f35ref	  --co2cap=94 --rps=0.4 --maint=1 --rsrv=flex --ramp=1 --unit_commit=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_MtFxUcRpLNpm_cmx94_r40_flex_lp_f35ref	  --co2cap=94 --rps=0.4 --maint=1 --rsrv=flex --ramp=1 --unit_commit=1 --plan_margin=0.05 --ignore_integer=1 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_simpNpm_cmx94_r40_derate_f35ref	  --co2cap=94 --rps=0.4 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_simpNpm_nDrt_cmx94_r40_f35ref	  --co2cap=94 --rps=0.4 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oMaintNpm_cmx94_r40_derate_f35ref	  --co2cap=94 --rps=0.4 --maint=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oFlexNpm_cmx94_r40_derate_flex_f35ref	  --co2cap=94 --rps=0.4 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oRampNpm_cmx94_r40_derate_f35ref	  --co2cap=94 --rps=0.4 --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oUC_Npm_int60_cmx94_r40_derate_f35ref	  --uc_int_unit_min=0.06 --co2cap=94 --rps=0.4 --unit_commit=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FlxRmpNpm_cmx94_r40_derate_flex_f35ref	  --co2cap=94 --rps=0.4 --rsrv=flex --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FxRpMt_nDrtNpm_cmx94_r40_flex_f35ref	  --co2cap=94 --rps=0.4 --maint=1 --rsrv=flex --ramp=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FxRpMt_LnD_Npm_cmx94_r40_flex_lp_f35ref	  --co2cap=94 --rps=0.4 --maint=1 --rsrv=flex --ramp=1 --plan_margin=0.05 --ignore_integer=1 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_SepRmpNpm_cmx94_r40_derate_sep_f35ref	  --co2cap=94 --rps=0.4 --rsrv=separate --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_SpRpMt_nDrtNpm_cmx94_r40_sep_f35ref	  --co2cap=94 --rps=0.4 --maint=1 --rsrv=separate --ramp=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_SxRpMt_LnD_Npm_cmx94_r40_sep_lp_f35ref	  --co2cap=94 --rps=0.4 --maint=1 --rsrv=separate --ramp=1 --plan_margin=0.05 --ignore_integer=1 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oSep_cmx47_r0_derate_sep_pm1363_f35rf_0W	  --co2cap=47 --rps=0 --rsrv=separate --derate_to_maint=1 --derate=1 --plan_margin=0.1363 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FxUc_cmx47_r0_derate_flex_pm1363_f35rf_0W	  --co2cap=47 --rps=0 --rsrv=flex --unit_commit=1 --derate_to_maint=1 --derate=1 --plan_margin=0.1363 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_MtFxUc_cmx47_r0_flex_pm1363_f35rf_0W	  --co2cap=47 --rps=0 --maint=1 --rsrv=flex --unit_commit=1 --plan_margin=0.1363 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_MtFxUcRp_cmx47_r0_flex_pm1363_f35rf_0W	  --co2cap=47 --rps=0 --maint=1 --rsrv=flex --ramp=1 --unit_commit=1 --plan_margin=0.1363 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_MtFxUcRpL_cmx47_r0_flex_pm1363_lp_f35rf_0W	  --co2cap=47 --rps=0 --maint=1 --rsrv=flex --ramp=1 --unit_commit=1 --plan_margin=0.1363 --ignore_integer=1 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oM_nDrt_cmx47_r0_pm1363_f35rf_0W	  --co2cap=47 --rps=0 --maint=1 --plan_margin=0.1363 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FlxRmp_cmx47_r0_derate_flex_pm1363_f35rf_0W	  --co2cap=47 --rps=0 --rsrv=flex --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.1363 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FxRpMt_cmx47_r0_derate_flex_pm1363_f35rf_0W	  --co2cap=47 --rps=0 --maint=1 --rsrv=flex --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.1363 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FxRpMt_nDrt_cmx47_r0_flex_pm1363_f35rf_0W	  --co2cap=47 --rps=0 --maint=1 --rsrv=flex --ramp=1 --plan_margin=0.1363 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FxRpMt_LnD_cmx47_r0_flex_pm1363_lp_f35rf_0W	  --co2cap=47 --rps=0 --maint=1 --rsrv=flex --ramp=1 --plan_margin=0.1363 --ignore_integer=1 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_RpMt_cmx47_r0_derate_pm1363_f35rf_0W	  --co2cap=47 --rps=0 --maint=1 --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.1363 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_RpMt_nDrt_cmx47_r0_pm1363_f35rf_0W	  --co2cap=47 --rps=0 --maint=1 --ramp=1 --plan_margin=0.1363 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_SepRmp_cmx47_r0_derate_sep_pm1363_f35rf_0W	  --co2cap=47 --rps=0 --rsrv=separate --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.1363 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_SpRpMt_cmx47_r0_derate_sep_pm1363_f35rf_0W	  --co2cap=47 --rps=0 --maint=1 --rsrv=separate --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.1363 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_SpRpMt_nDrt_cmx47_r0_sep_pm1363_f35rf_0W	  --co2cap=47 --rps=0 --maint=1 --rsrv=separate --ramp=1 --plan_margin=0.1363 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_SxRpMt_LnD_cmx47_r0_sep_pm1363_lp_f35rf_0W	  --co2cap=47 --rps=0 --maint=1 --rsrv=separate --ramp=1 --plan_margin=0.1363 --ignore_integer=1 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_lp_int60_cmx47_r0_sep_pm1363_lp_f35rf_0W	  --uc_int_unit_min=0.06 --co2cap=47 --rps=0 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.1363 --ignore_integer=1 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_lpNpm_int60_cmx47_r0_sep_lp_f35rf_0W	  --uc_int_unit_min=0.06 --co2cap=47 --rps=0 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 --ignore_integer=1 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FxUcNpm_cmx47_r0_derate_flex_f35rf_0W	  --co2cap=47 --rps=0 --rsrv=flex --unit_commit=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_MtFxUcNpm_cmx47_r0_flex_f35rf_0W	  --co2cap=47 --rps=0 --maint=1 --rsrv=flex --unit_commit=1 --plan_margin=0.05 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_MtFxUcRpNpm_cmx47_r0_flex_f35rf_0W	  --co2cap=47 --rps=0 --maint=1 --rsrv=flex --ramp=1 --unit_commit=1 --plan_margin=0.05 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_MtFxUcRpLNpm_cmx47_r0_flex_lp_f35rf_0W	  --co2cap=47 --rps=0 --maint=1 --rsrv=flex --ramp=1 --unit_commit=1 --plan_margin=0.05 --ignore_integer=1 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_simpNpm_cmx47_r0_derate_f35rf_0W	  --co2cap=47 --rps=0 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_simpNpm_nDrt_cmx47_r0_f35rf_0W	  --co2cap=47 --rps=0 --plan_margin=0.05 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oMaintNpm_cmx47_r0_derate_f35rf_0W	  --co2cap=47 --rps=0 --maint=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oFlexNpm_cmx47_r0_derate_flex_f35rf_0W	  --co2cap=47 --rps=0 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oRampNpm_cmx47_r0_derate_f35rf_0W	  --co2cap=47 --rps=0 --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oUC_Npm_int60_cmx47_r0_derate_f35rf_0W	  --uc_int_unit_min=0.06 --co2cap=47 --rps=0 --unit_commit=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FlxRmpNpm_cmx47_r0_derate_flex_f35rf_0W	  --co2cap=47 --rps=0 --rsrv=flex --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FxRpMt_nDrtNpm_cmx47_r0_flex_f35rf_0W	  --co2cap=47 --rps=0 --maint=1 --rsrv=flex --ramp=1 --plan_margin=0.05 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FxRpMt_LnD_Npm_cmx47_r0_flex_lp_f35rf_0W	  --co2cap=47 --rps=0 --maint=1 --rsrv=flex --ramp=1 --plan_margin=0.05 --ignore_integer=1 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_SepRmpNpm_cmx47_r0_derate_sep_f35rf_0W	  --co2cap=47 --rps=0 --rsrv=separate --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_SpRpMt_nDrtNpm_cmx47_r0_sep_f35rf_0W	  --co2cap=47 --rps=0 --maint=1 --rsrv=separate --ramp=1 --plan_margin=0.05 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_SxRpMt_LnD_Npm_cmx47_r0_sep_lp_f35rf_0W	  --co2cap=47 --rps=0 --maint=1 --rsrv=separate --ramp=1 --plan_margin=0.05 --ignore_integer=1 --update=../data/no_wind_update.inc --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oSep_cmx47_r20_derate_sep_pm1740_f35ref	  --co2cap=47 --rps=0.2 --rsrv=separate --derate_to_maint=1 --derate=1 --plan_margin=0.174 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FxUc_cmx47_r20_derate_flex_pm1740_f35ref	  --co2cap=47 --rps=0.2 --rsrv=flex --unit_commit=1 --derate_to_maint=1 --derate=1 --plan_margin=0.174 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_MtFxUc_cmx47_r20_flex_pm1740_f35ref	  --co2cap=47 --rps=0.2 --maint=1 --rsrv=flex --unit_commit=1 --plan_margin=0.174 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_MtFxUcRp_cmx47_r20_flex_pm1740_f35ref	  --co2cap=47 --rps=0.2 --maint=1 --rsrv=flex --ramp=1 --unit_commit=1 --plan_margin=0.174 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_MtFxUcRpL_cmx47_r20_flex_pm1740_lp_f35ref	  --co2cap=47 --rps=0.2 --maint=1 --rsrv=flex --ramp=1 --unit_commit=1 --plan_margin=0.174 --ignore_integer=1 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oM_nDrt_cmx47_r20_pm1740_f35ref	  --co2cap=47 --rps=0.2 --maint=1 --plan_margin=0.174 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FlxRmp_cmx47_r20_derate_flex_pm1740_f35ref	  --co2cap=47 --rps=0.2 --rsrv=flex --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.174 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FxRpMt_cmx47_r20_derate_flex_pm1740_f35ref	  --co2cap=47 --rps=0.2 --maint=1 --rsrv=flex --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.174 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FxRpMt_nDrt_cmx47_r20_flex_pm1740_f35ref	  --co2cap=47 --rps=0.2 --maint=1 --rsrv=flex --ramp=1 --plan_margin=0.174 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FxRpMt_LnD_cmx47_r20_flex_pm1740_lp_f35ref	  --co2cap=47 --rps=0.2 --maint=1 --rsrv=flex --ramp=1 --plan_margin=0.174 --ignore_integer=1 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_RpMt_cmx47_r20_derate_pm1740_f35ref	  --co2cap=47 --rps=0.2 --maint=1 --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.174 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_RpMt_nDrt_cmx47_r20_pm1740_f35ref	  --co2cap=47 --rps=0.2 --maint=1 --ramp=1 --plan_margin=0.174 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_SepRmp_cmx47_r20_derate_sep_pm1740_f35ref	  --co2cap=47 --rps=0.2 --rsrv=separate --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.174 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_SpRpMt_cmx47_r20_derate_sep_pm1740_f35ref	  --co2cap=47 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.174 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_SpRpMt_nDrt_cmx47_r20_sep_pm1740_f35ref	  --co2cap=47 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --plan_margin=0.174 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_SxRpMt_LnD_cmx47_r20_sep_pm1740_lp_f35ref	  --co2cap=47 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --plan_margin=0.174 --ignore_integer=1 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_lp_int60_cmx47_r20_sep_pm1740_lp_f35ref	  --uc_int_unit_min=0.06 --co2cap=47 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.174 --ignore_integer=1 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_lpNpm_int60_cmx47_r20_sep_lp_f35ref	  --uc_int_unit_min=0.06 --co2cap=47 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 --ignore_integer=1 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FxUcNpm_cmx47_r20_derate_flex_f35ref	  --co2cap=47 --rps=0.2 --rsrv=flex --unit_commit=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_MtFxUcNpm_cmx47_r20_flex_f35ref	  --co2cap=47 --rps=0.2 --maint=1 --rsrv=flex --unit_commit=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_MtFxUcRpNpm_cmx47_r20_flex_f35ref	  --co2cap=47 --rps=0.2 --maint=1 --rsrv=flex --ramp=1 --unit_commit=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_MtFxUcRpLNpm_cmx47_r20_flex_lp_f35ref	  --co2cap=47 --rps=0.2 --maint=1 --rsrv=flex --ramp=1 --unit_commit=1 --plan_margin=0.05 --ignore_integer=1 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_simpNpmNpm_cmx47_r20_derate_f35ref	  --co2cap=47 --rps=0.2 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_simpNpm_nDrt_cmx47_r20_f35ref	  --co2cap=47 --rps=0.2 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oMaintNpm_cmx47_r20_derate_f35ref	  --co2cap=47 --rps=0.2 --maint=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oFlexNpm_cmx47_r20_derate_flex_f35ref	  --co2cap=47 --rps=0.2 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oRampNpm_cmx47_r20_derate_f35ref	  --co2cap=47 --rps=0.2 --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oUC_Npm_int60_cmx47_r20_derate_f35ref	  --uc_int_unit_min=0.06 --co2cap=47 --rps=0.2 --unit_commit=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FlxRmpNpm_cmx47_r20_derate_flex_f35ref	  --co2cap=47 --rps=0.2 --rsrv=flex --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FxRpMt_nDrtNpm_cmx47_r20_flex_f35ref	  --co2cap=47 --rps=0.2 --maint=1 --rsrv=flex --ramp=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FxRpMt_LnD_Npm_cmx47_r20_flex_lp_f35ref	  --co2cap=47 --rps=0.2 --maint=1 --rsrv=flex --ramp=1 --plan_margin=0.05 --ignore_integer=1 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_SepRmpNpm_cmx47_r20_derate_sep_f35ref	  --co2cap=47 --rps=0.2 --rsrv=separate --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_SpRpMt_nDrtNpm_cmx47_r20_sep_f35ref	  --co2cap=47 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_SxRpMt_LnD_Npm_cmx47_r20_sep_lp_f35ref	  --co2cap=47 --rps=0.2 --maint=1 --rsrv=separate --ramp=1 --plan_margin=0.05 --ignore_integer=1 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oSep_cmx47_r40_derate_sep_pm2823_f35ref	  --co2cap=47 --rps=0.4 --rsrv=separate --derate_to_maint=1 --derate=1 --plan_margin=0.2823 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FxUc_cmx47_r40_derate_flex_pm2823_f35ref	  --co2cap=47 --rps=0.4 --rsrv=flex --unit_commit=1 --derate_to_maint=1 --derate=1 --plan_margin=0.2823 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_MtFxUc_cmx47_r40_flex_pm2823_f35ref	  --co2cap=47 --rps=0.4 --maint=1 --rsrv=flex --unit_commit=1 --plan_margin=0.2823 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_MtFxUcRp_cmx47_r40_flex_pm2823_f35ref	  --co2cap=47 --rps=0.4 --maint=1 --rsrv=flex --ramp=1 --unit_commit=1 --plan_margin=0.2823 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_MtFxUcRpL_cmx47_r40_flex_pm2823_lp_f35ref	  --co2cap=47 --rps=0.4 --maint=1 --rsrv=flex --ramp=1 --unit_commit=1 --plan_margin=0.2823 --ignore_integer=1 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oM_nDrt_cmx47_r40_pm2823_f35ref	  --co2cap=47 --rps=0.4 --maint=1 --plan_margin=0.2823 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FlxRmp_cmx47_r40_derate_flex_pm2823_f35ref	  --co2cap=47 --rps=0.4 --rsrv=flex --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.2823 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FxRpMt_cmx47_r40_derate_flex_pm2823_f35ref	  --co2cap=47 --rps=0.4 --maint=1 --rsrv=flex --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.2823 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FxRpMt_nDrt_cmx47_r40_flex_pm2823_f35ref	  --co2cap=47 --rps=0.4 --maint=1 --rsrv=flex --ramp=1 --plan_margin=0.2823 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FxRpMt_LnD_cmx47_r40_flex_pm2823_lp_f35ref	  --co2cap=47 --rps=0.4 --maint=1 --rsrv=flex --ramp=1 --plan_margin=0.2823 --ignore_integer=1 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_RpMt_cmx47_r40_derate_pm2823_f35ref	  --co2cap=47 --rps=0.4 --maint=1 --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.2823 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_RpMt_nDrt_cmx47_r40_pm2823_f35ref	  --co2cap=47 --rps=0.4 --maint=1 --ramp=1 --plan_margin=0.2823 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_SepRmp_cmx47_r40_derate_sep_pm2823_f35ref	  --co2cap=47 --rps=0.4 --rsrv=separate --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.2823 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_SpRpMt_cmx47_r40_derate_sep_pm2823_f35ref	  --co2cap=47 --rps=0.4 --maint=1 --rsrv=separate --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.2823 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_SpRpMt_nDrt_cmx47_r40_sep_pm2823_f35ref	  --co2cap=47 --rps=0.4 --maint=1 --rsrv=separate --ramp=1 --plan_margin=0.2823 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_SxRpMt_LnD_cmx47_r40_sep_pm2823_lp_f35ref	  --co2cap=47 --rps=0.4 --maint=1 --rsrv=separate --ramp=1 --plan_margin=0.2823 --ignore_integer=1 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_lp_int60_cmx47_r40_sep_pm2823_lp_f35ref	  --uc_int_unit_min=0.06 --co2cap=47 --rps=0.4 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.2823 --ignore_integer=1 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_lpNpm_int60_cmx47_r40_sep_lp_f35ref	  --uc_int_unit_min=0.06 --co2cap=47 --rps=0.4 --maint=1 --rsrv=separate --ramp=1 --unit_commit=1 --startup=1 --min_up_down=1 --plan_margin=0.05 --ignore_integer=1 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FxUcNpm_cmx47_r40_derate_flex_f35ref	  --co2cap=47 --rps=0.4 --rsrv=flex --unit_commit=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_MtFxUcNpm_cmx47_r40_flex_f35ref	  --co2cap=47 --rps=0.4 --maint=1 --rsrv=flex --unit_commit=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_MtFxUcRpNpm_cmx47_r40_flex_f35ref	  --co2cap=47 --rps=0.4 --maint=1 --rsrv=flex --ramp=1 --unit_commit=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_MtFxUcRpLNpm_cmx47_r40_flex_lp_f35ref	  --co2cap=47 --rps=0.4 --maint=1 --rsrv=flex --ramp=1 --unit_commit=1 --plan_margin=0.05 --ignore_integer=1 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_simpNpm_cmx47_r40_derate_f35ref	  --co2cap=47 --rps=0.4 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_simpNpm_nDrt_cmx47_r40_f35ref	  --co2cap=47 --rps=0.4 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oMaintNpm_cmx47_r40_derate_f35ref	  --co2cap=47 --rps=0.4 --maint=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oFlexNpm_cmx47_r40_derate_flex_f35ref	  --co2cap=47 --rps=0.4 --rsrv=flex --derate_to_maint=1 --derate=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oRampNpm_cmx47_r40_derate_f35ref	  --co2cap=47 --rps=0.4 --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_oUC_Npm_int60_cmx47_r40_derate_f35ref	  --uc_int_unit_min=0.06 --co2cap=47 --rps=0.4 --unit_commit=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FlxRmpNpm_cmx47_r40_derate_flex_f35ref	  --co2cap=47 --rps=0.4 --rsrv=flex --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FxRpMt_nDrtNpm_cmx47_r40_flex_f35ref	  --co2cap=47 --rps=0.4 --maint=1 --rsrv=flex --ramp=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_FxRpMt_LnD_Npm_cmx47_r40_flex_lp_f35ref	  --co2cap=47 --rps=0.4 --maint=1 --rsrv=flex --ramp=1 --plan_margin=0.05 --ignore_integer=1 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_SepRmpNpm_cmx47_r40_derate_sep_f35ref	  --co2cap=47 --rps=0.4 --rsrv=separate --ramp=1 --derate_to_maint=1 --derate=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_SpRpMt_nDrtNpm_cmx47_r40_sep_f35ref	  --co2cap=47 --rps=0.4 --maint=1 --rsrv=separate --ramp=1 --plan_margin=0.05 --fuel=fuel2035_aeo12_ref_usa.inc 
+wch_SxRpMt_LnD_Npm_cmx47_r40_sep_lp_f35ref	  --co2cap=47 --rps=0.4 --maint=1 --rsrv=separate --ramp=1 --plan_margin=0.05 --ignore_integer=1 --fuel=fuel2035_aeo12_ref_usa.inc 
