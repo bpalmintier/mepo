@@ -8,7 +8,7 @@ A GAMS/CPLEX model for generation planning, unit commitment, and production cost
  * Same operations model used in both production costing and simulation
 
 ## Getting Started
-To get started with the Advanced Power Family of models please consult "User Guide-StaticCapPlan & UnitCommit" in the docs directory.
+To get started with the Advanced Power Family of models please consult ["User Guide-StaticCapPlan & UnitCommit.pdf"](https://github.com/bpalmintier/mepo/blob/master/docs/User%20Guide-StaticCapPlan%20%26%20UnitCommit.pdf) in the docs directory.
 
 ## Licenses:
  * **Code:** BSD 3-clause
